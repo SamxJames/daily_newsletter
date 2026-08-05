@@ -1,0 +1,125 @@
+{
+  "owner": {
+    "name": "Sam",
+    "timezone": "Europe/London",
+    "sendHourLocal": "06:30"
+  },
+  "siteUrl": "https://daily-newsletter.vercel.app",
+  "markets": {
+    "provider": "alphavantage",
+    "indices": [
+      { "symbol": "SPX", "label": "S&P 500" },
+      { "symbol": "UKX", "label": "FTSE 100" },
+      { "symbol": "NKY", "label": "Nikkei 225" }
+    ],
+    "holdings": [
+      { "symbol": "VUSA.LON", "label": "Vanguard S&P 500 ETF" },
+      { "symbol": "VEVE.LON", "label": "Vanguard FTSE Dev World ex-UK" },
+      { "symbol": "IJPN.LON", "label": "iShares MSCI Japan" },
+      { "symbol": "ASML", "label": "ASML" },
+      { "symbol": "AMD", "label": "AMD" },
+      { "symbol": "WDEF.LON", "label": "WisdomTree Europe Defence" }
+    ],
+    "watchlist": [
+      { "symbol": "BA.LON", "label": "BAE Systems" },
+      { "symbol": "RR.LON", "label": "Rolls-Royce" },
+      { "symbol": "BABS.LON", "label": "Babcock International" },
+      { "symbol": "CHG.LON", "label": "Chemring" },
+      { "symbol": "QQ.LON", "label": "QinetiQ" },
+      { "symbol": "BEZ.LON", "label": "Beazley" }
+    ],
+    "maxRequestsPerRun": 20,
+    "_comment": "Alpha Vantage free tier caps at 25 requests/day. maxRequestsPerRun leaves headroom for a retry. Indices are fetched via web search rather than the API to conserve quota."
+  },
+  "sections": [
+    {
+      "id": "investing",
+      "title": "Markets",
+      "enabled": true,
+      "kind": "markets",
+      "prompt": "Give a broad overview of what moved markets in the last 24 hours and WHY. Lead with root causes — central bank decisions, inflation prints, rate expectations, geopolitical events, major earnings. Cover major indices (S&P 500, FTSE 100, Nikkei, European markets). Explain causation, not just direction. Keep it analytical, not breathless.",
+      "queries": [
+        "stock market today why moved",
+        "central bank interest rates inflation markets this week",
+        "FTSE 100 European markets today"
+      ]
+    },
+    {
+      "id": "fpl",
+      "title": "Fantasy Premier League",
+      "enabled": true,
+      "kind": "fpl",
+      "prompt": "Summarise the current FPL state of play: upcoming gameweek deadline, notable price rises and falls, injury and suspension news, and any standout differential picks being discussed. Practical and scannable.",
+      "queries": ["Fantasy Premier League gameweek news injuries price changes"]
+    },
+    {
+      "id": "data",
+      "title": "Data & BI",
+      "enabled": true,
+      "kind": "search",
+      "prompt": "Cover notable developments in the data and BI world: Power BI, BigQuery, DAX, semantic layers, dbt, data modelling and visualisation practice. Favour substantive product or practice changes over vendor marketing.",
+      "queries": [
+        "Power BI update news",
+        "BigQuery data warehouse news",
+        "semantic layer analytics engineering news"
+      ]
+    },
+    {
+      "id": "career",
+      "title": "Career & Data Leadership",
+      "enabled": true,
+      "kind": "search",
+      "prompt": "Cover signals relevant to a senior data professional moving toward Head of Data / Director level: hiring trends, salary benchmarks, notable leadership moves, and thought leadership on running data teams. Skip generic careers-advice filler.",
+      "queries": [
+        "Head of Data hiring trends UK",
+        "data leadership team management article",
+        "UK data salary benchmark report"
+      ]
+    },
+    {
+      "id": "insurance",
+      "title": "UK Insurance",
+      "enabled": true,
+      "kind": "search",
+      "prompt": "Cover UK insurance sector developments: FCA regulatory changes, consumer duty, pricing practices, insurtech and MGA activity, and notable moves among personal lines insurers. Prioritise items relevant to a UK personal lines insurer.",
+      "queries": [
+        "FCA insurance regulation news UK",
+        "UK insurtech MGA news",
+        "UK home motor insurance market news"
+      ]
+    },
+    {
+      "id": "local",
+      "title": "Milton Keynes",
+      "enabled": true,
+      "kind": "search",
+      "prompt": "Cover Milton Keynes: upcoming tech, business and networking events (flag dates clearly so they can be diarised), plus general local news — council and planning decisions, development, transport, notable community stories.",
+      "queries": [
+        "Milton Keynes tech networking events",
+        "Milton Keynes news council development",
+        "MK Tech Week"
+      ]
+    },
+    {
+      "id": "news",
+      "title": "News",
+      "enabled": true,
+      "kind": "search",
+      "prompt": "Summarise the most important UK and world headlines briefly — a handful of items, a sentence or two each. Draw across a spread of reliable outlets rather than leaning on any single one, so no outlet's framing dominates.",
+      "queries": [
+        "top UK news headlines today BBC Reuters",
+        "world news today Reuters AP",
+        "UK politics economy news today Financial Times"
+      ]
+    }
+  ],
+  "email": {
+    "from": "Daily Brief <onboarding@resend.dev>",
+    "to": "REPLACE_WITH_YOUR_EMAIL",
+    "subjectPrefix": "Daily Brief"
+  },
+  "claude": {
+    "model": "claude-sonnet-4-6",
+    "maxTokens": 8000
+  }
+}

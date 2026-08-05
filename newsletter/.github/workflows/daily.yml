@@ -1,0 +1,98 @@
+name: Daily Brief
+
+on:
+  schedule:
+    # 06:30 UK time. GitHub cron is UTC only, so both are listed and the job
+    # self-checks the local hour to avoid sending twice in a single day.
+    - cron: "30 5 * * *" # 06:30 BST (summer)
+    - cron: "30 6 * * *" # 06:30 GMT (winter)
+  workflow_dispatch:
+    inputs:
+      skip_email:
+        description: "Build the digest without sending the email"
+        type: boolean
+        default: false
+
+concurrency:
+  group: daily-brief
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Skip duplicate DST run
+        id: guard
+        run: |
+          HOUR=$(TZ=Europe/London date +%H)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$HOUR" != "06" ]; then
+            echo "Local hour is $HOUR, not 06 — this is the off-season cron. Skipping."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-node@v4
+        if: steps.guard.outputs.skip != 'true'
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        if: steps.guard.outputs.skip != 'true'
+        run: npm ci
+
+      - name: Build digest
+        if: steps.guard.outputs.skip != 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NEWSLETTER_TO: ${{ secrets.NEWSLETTER_TO }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          if [ "${{ inputs.skip_email }}" = "true" ]; then
+            npm run daily:dry
+          else
+            npm run daily
+          fi
+
+      - name: Commit digest
+        if: steps.guard.outputs.skip != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No new digest to commit"
+          else
+            git commit -m "Digest for $(TZ=Europe/London date +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Trigger Vercel deploy
+        if: steps.guard.outputs.skip != 'true'
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -n "$HOOK" ]; then
+            curl -fsS -X POST "$HOOK" && echo "Deploy triggered"
+          else
+            echo "VERCEL_DEPLOY_HOOK not set — skipping deploy trigger"
+          fi
+
+      - name: Alert on total failure
+        if: failure() && steps.guard.outputs.skip != 'true'
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          if [ -n "$DISCORD_WEBHOOK_URL" ]; then
+            curl -fsS -X POST -H 'Content-Type: application/json' \
+              -d "{\"username\":\"Daily Brief\",\"content\":\"Daily brief workflow failed: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" \
+              "$DISCORD_WEBHOOK_URL"
+          fi
