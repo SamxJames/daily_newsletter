@@ -1,7 +1,7 @@
 import { loadConfig, localDate } from "./lib/config";
 import { RunLogger } from "./lib/logger";
 import { notifyFailure } from "./lib/notify";
-import { saveDigest } from "./lib/store";
+import { saveDigest, previousDigest } from "./lib/store";
 import { synthesizeSummary } from "./lib/synthesize";
 import { sendEmail } from "./lib/email";
 import { fetchQuotes, formatQuotesForPrompt } from "./fetch/markets";
@@ -28,6 +28,11 @@ async function main() {
   );
   const fplResult = await log.track("fpl:api", () => fetchFplSummary());
 
+  const yesterday = previousDigest();
+  const yesterdaySections = new Map(
+    (yesterday?.sections ?? []).map((s) => [s.id, s.body]),
+  );
+
   const holdings: Quote[] = holdingsResult.value ?? [];
   const watchlist: Quote[] = watchlistResult.value ?? [];
 
@@ -50,7 +55,12 @@ async function main() {
           : undefined;
 
     const result = await log.track(sectionConfig.id, () =>
-      buildSection(sectionConfig, config, context || undefined),
+      buildSection(
+        sectionConfig,
+        config,
+        context || undefined,
+        yesterdaySections.get(sectionConfig.id) || undefined,
+      ),
     );
 
     sections.push({
