@@ -11,18 +11,21 @@
     "daily:dry": "tsx scripts/run-daily.ts --no-email",
     "weekly": "tsx scripts/run-weekly.ts",
     "weekly:dry": "tsx scripts/run-weekly.ts --no-email",
+    "push": "tsx scripts/send-push.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "marked": "^12.0.2",
     "next": "^14.2.5",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "web-push": "^3.6.7"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "@types/web-push": "^3.6.4",
     "tsx": "^4.16.2",
     "typescript": "^5.5.3"
   }

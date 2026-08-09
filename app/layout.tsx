@@ -1,10 +1,16 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import PushPrompt from "./components/PushPrompt";
 
 export const metadata: Metadata = {
   title: "Daily Brief",
   description: "A personal daily briefing",
   robots: { index: false, follow: false },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "Daily Brief",
+  },
 };
 
 export const viewport: Viewport = {
@@ -41,7 +47,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <script dangerouslySetInnerHTML={{ __html: THEME_INIT }} />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <PushPrompt />
+      </body>
     </html>
   );
 }

@@ -482,6 +482,139 @@ body {
   color: var(--muted);
 }
 
+/* ---------------- Login ---------------- */
+
+.login-shell {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 22rem;
+  background: var(--surface);
+  border-radius: 0.9rem;
+  padding: 1.6rem 1.4rem 1.75rem;
+  text-align: center;
+}
+
+.login-headline {
+  font-size: 1.5rem;
+  margin-bottom: 1.4rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.login-input {
+  font-family: var(--body);
+  font-size: 1rem;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 0.5rem;
+  padding: 0.7rem 0.85rem;
+}
+
+.login-input:focus-visible {
+  border-color: var(--accent);
+}
+
+.login-submit {
+  appearance: none;
+  cursor: pointer;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.7rem 0.85rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: var(--surface);
+}
+
+.login-submit:hover,
+.login-submit:focus-visible {
+  opacity: 0.9;
+}
+
+.login-error {
+  margin: 1rem 0 0;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--failed);
+}
+
+/* ---------------- Push prompt ---------------- */
+
+.push-prompt {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  max-width: 38rem;
+  margin: 0 auto;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+.push-prompt-text {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+}
+
+.push-prompt-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.push-prompt-actions button {
+  appearance: none;
+  cursor: pointer;
+  font-family: var(--mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--rule);
+  background: transparent;
+  color: var(--muted);
+}
+
+.push-prompt-actions button:first-child {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--surface);
+}
+
+.push-prompt-actions button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.push-prompt-dismiss:hover {
+  color: var(--ink);
+  border-color: var(--accent);
+}
+
 /* ---------------- Desktop ---------------- */
 
 @media (min-width: 46rem) {

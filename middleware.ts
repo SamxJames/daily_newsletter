@@ -1,40 +1,56 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
+import { SESSION_COOKIE_NAME, SESSION_MAX_AGE_SECONDS, verifySessionToken } from "@/scripts/lib/session";
 
 /**
- * Password gate implemented in middleware rather than via Vercel's native
- * Password Protection, which needs Pro plus a $150/month add-on. This runs on
- * the free Hobby plan and is sufficient for keeping a personal digest private.
+ * Session-cookie gate. Runs in place of the old HTTP Basic Auth: a valid
+ * signed cookie lets the request through and slides its expiry forward;
+ * anything else gets sent to /login. See session-login-spec.md.
  */
-export function middleware(request: NextRequest) {
-  const user = process.env.SITE_USER;
+export async function middleware(request: NextRequest) {
   const password = process.env.SITE_PASSWORD;
+  const secret = process.env.SESSION_SECRET;
 
-  // Fail closed: if no password is configured, lock the site rather than
+  // Fail closed: if either isn't configured, lock the site rather than
   // silently publishing holdings and career notes to the open web.
-  if (!password) {
+  if (!password || !secret) {
     return new NextResponse("Site password not configured.", { status: 503 });
   }
 
-  const header = request.headers.get("authorization");
-
-  if (header?.startsWith("Basic ")) {
-    const decoded = atob(header.slice(6));
-    const separator = decoded.indexOf(":");
-    const suppliedUser = decoded.slice(0, separator);
-    const suppliedPassword = decoded.slice(separator + 1);
-
-    if (suppliedUser === (user || "sam") && suppliedPassword === password) {
-      return NextResponse.next();
-    }
+  // The login page and its API route must stay reachable without a session,
+  // or nobody could ever log in.
+  const { pathname } = request.nextUrl;
+  if (pathname === "/login" || pathname === "/api/login") {
+    return NextResponse.next();
   }
 
-  return new NextResponse("Authentication required", {
-    status: 401,
-    headers: { "WWW-Authenticate": 'Basic realm="Daily Brief"' },
+  const token = request.cookies.get(SESSION_COOKIE_NAME)?.value;
+  const valid = await verifySessionToken(token, secret);
+
+  if (!valid) {
+    return NextResponse.redirect(new URL("/login", request.url));
+  }
+
+  // Sliding window: every valid request refreshes the cookie's Max-Age, so
+  // regular use keeps the session alive indefinitely. The signed value
+  // itself is unchanged — only the browser-side expiry is extended.
+  const response = NextResponse.next();
+  response.cookies.set(SESSION_COOKIE_NAME, token!, {
+    httpOnly: true,
+    secure: true,
+    sameSite: "lax",
+    path: "/",
+    maxAge: SESSION_MAX_AGE_SECONDS,
   });
+  return response;
 }
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon.ico).*)"],
+  // PWA install assets (manifest, icons, service worker) are excluded from the
+  // gate: iOS's "Add to Home Screen" and browser install flows fetch these
+  // outside the page's authenticated session, so gating them breaks install.
+  // None of it is sensitive — just branding and a generic manifest.
+  matcher: [
+    "/((?!_next/static|_next/image|favicon.ico|manifest.webmanifest|icon.png|apple-icon.png|icons/|sw.js).*)",
+  ],
 };

@@ -20,6 +20,14 @@ Everything below can be done from a phone browser. Roughly 20 minutes.
 
 Discord webhook: in your existing server, Channel Settings → Integrations → Webhooks → New Webhook → Copy URL. Use a separate channel from the trading bot if you'd rather keep alerts apart.
 
+Push notifications (optional): generate a VAPID key pair once, locally:
+
+```
+npx web-push generate-vapid-keys
+```
+
+Also create a fine-grained GitHub PAT, scoped to **this repo only**, with **Contents: Read and write** permission and nothing else — github.com → Settings → Developer settings → Personal access tokens → Fine-grained tokens. It lets `/api/subscribe` commit the push subscription into the repo, the same pattern the daily pipeline already uses for digest storage.
+
 ### 2. Push this repo to GitHub
 
 Make it **private** — `data/` accumulates your holdings and briefing history.
@@ -36,17 +44,25 @@ Repo → Settings → Secrets and variables → Actions → New repository secre
 | `NEWSLETTER_TO` | the email address to receive the brief |
 | `DISCORD_WEBHOOK_URL` | for total-failure alerts |
 | `VERCEL_DEPLOY_HOOK` | added in step 4 |
+| `VAPID_PRIVATE_KEY` | from step 1 |
+| `VAPID_PUBLIC_KEY` | from step 1 — same value as the Vercel `NEXT_PUBLIC_VAPID_PUBLIC_KEY` var below; `web-push` needs both keys server-side even though only the public one is exposed client-side |
+| `VAPID_SUBJECT` | a `mailto:` address, e.g. `mailto:you@example.com` |
+| `GH_PAT` | the fine-grained token from step 1 (named `GH_PAT`, not `GITHUB_PAT` — GitHub reserves that prefix for its own secrets and rejects it) |
 
 ### 4. Deploy to Vercel
 
 1. vercel.com → Add New → Project → import this repo. Framework auto-detects as Next.js.
 2. Before deploying, add environment variables:
-   - `SITE_USER` — e.g. `sam`
    - `SITE_PASSWORD` — pick something long
+   - `SESSION_SECRET` — a random signing key for the session cookie; generate once with `openssl rand -hex 32` and paste the output in. Rotating it instantly logs every device out.
+   - `NEXT_PUBLIC_VAPID_PUBLIC_KEY` — the same public key from step 1. Safe to expose client-side; it's what the browser uses to open a push subscription
+   - `GH_PAT` — same token as the GitHub secret above
 3. Deploy.
 4. Settings → Git → Deploy Hooks → create one named `daily`, branch `main`. Copy the URL into the `VERCEL_DEPLOY_HOOK` GitHub secret.
 
-The site is gated by HTTP basic auth in `middleware.ts`. It **fails closed** — with no `SITE_PASSWORD` set it returns 503 rather than publishing your holdings publicly.
+The site is gated by a signed session cookie, issued at `/login` (see `middleware.ts` and `session-login-spec.md`). Enter the `SITE_PASSWORD` once and the cookie keeps you signed in for 180 days, sliding forward on every visit — regular use effectively never re-prompts. It **fails closed** — with `SITE_PASSWORD` or `SESSION_SECRET` unset, the site returns 503 rather than publishing your holdings publicly. To force every device to log in again (e.g. a lost device), rotate `SESSION_SECRET` in Vercel. The manifest, icons and service worker are deliberately excluded from the gate (see `middleware.ts`) since iOS's install flow fetches them outside the page's session — none of it is sensitive.
+
+To enable push notifications: open the site on your phone, tap **Enable** on the in-page prompt, accept the native permission dialog. On iOS this only works from an installed PWA (Share → Add to Home Screen) — Safari itself doesn't support web push from a regular browser tab. The next daily run pushes a notification if a subscription is on file; if that step fails for any reason, the email and website are unaffected — see `scripts/send-push.ts`.
 
 ### 5. Set the recipient
 
@@ -107,10 +123,10 @@ npm run daily:dry     # build a digest without emailing
 npm run dev           # preview at localhost:3000
 ```
 
-`npm run dev` needs `SITE_PASSWORD` set or the gate returns 503:
+`npm run dev` needs `SITE_PASSWORD` and `SESSION_SECRET` set or the gate returns 503:
 
 ```bash
-SITE_PASSWORD=test npm run dev
+SITE_PASSWORD=test SESSION_SECRET=dev-only-secret npm run dev
 ```
 
 ---

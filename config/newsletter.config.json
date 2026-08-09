@@ -4,7 +4,8 @@
     "timezone": "Europe/London",
     "sendHourLocal": "06:30"
   },
-  "siteUrl": "https://daily-newsletter.vercel.app",
+  "siteUrl": "https://daily-newsletter-umber.vercel.app",
+  "repo": "SamxJames/daily_newsletter",
   "markets": {
     "provider": "alphavantage",
     "indices": [

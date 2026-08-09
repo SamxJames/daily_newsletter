@@ -17,6 +17,8 @@ export interface Instrument {
 export interface NewsletterConfig {
   owner: { name: string; timezone: string; sendHourLocal: string };
   siteUrl: string;
+  /** "owner/repo" — where /api/subscribe commits the push subscription and where the daily push step reads it from. */
+  repo: string;
   markets: {
     provider: string;
     indices: Instrument[];

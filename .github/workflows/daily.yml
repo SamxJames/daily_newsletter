@@ -29,12 +29,23 @@ jobs:
       - name: Skip duplicate DST run
         id: guard
         run: |
-          HOUR=$(TZ=Europe/London date +%H)
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "$HOUR" != "06" ]; then
-            echo "Local hour is $HOUR, not 06 — this is the off-season cron. Skipping."
-            echo "skip=true" >> "$GITHUB_OUTPUT"
-          else
+          # Check WHICH cron fired (github.event.schedule), not the wall clock when
+          # the job happened to start — GitHub can delay job starts by an hour or
+          # more under load, which made the old wall-clock check skip valid runs.
+          # The UK DST offset only flips twice a year, so it's a stable signal
+          # regardless of how late the job actually started.
+          OFFSET=$(TZ=Europe/London date +%z)
+          SCHEDULE="${{ github.event.schedule }}"
+
+          if [ "${{ github.event_name }}" != "schedule" ]; then
             echo "skip=false" >> "$GITHUB_OUTPUT"
+          elif [ "$SCHEDULE" = "30 5 * * *" ] && [ "$OFFSET" = "+0100" ]; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"   # BST cron, and it is BST
+          elif [ "$SCHEDULE" = "30 6 * * *" ] && [ "$OFFSET" = "+0000" ]; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"   # GMT cron, and it is GMT
+          else
+            echo "Cron '$SCHEDULE' does not match current UK offset '$OFFSET' — this is the off-season entry. Skipping."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
           fi
 
       - uses: actions/setup-node@v4
@@ -74,6 +85,15 @@ jobs:
             git commit -m "Digest for $(TZ=Europe/London date +%Y-%m-%d)"
             git push
           fi
+
+      - name: Send push notification
+        if: steps.guard.outputs.skip != 'true'
+        continue-on-error: true
+        env:
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
+          VAPID_SUBJECT: ${{ secrets.VAPID_SUBJECT }}
+        run: npm run push
 
       - name: Trigger Vercel deploy
         if: steps.guard.outputs.skip != 'true'

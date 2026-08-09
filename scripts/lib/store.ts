@@ -41,3 +41,13 @@ export function recentDigests(count: number): Digest[] {
     .map((date) => readDigest(date))
     .filter((d): d is Digest => d !== null);
 }
+
+/**
+ * Most recently stored daily digest — normally yesterday's, since this is
+ * called before today's digest is saved. Used so each section can avoid
+ * re-covering a story that hasn't actually moved on since last time.
+ */
+export function previousDigest(): Digest | null {
+  const [mostRecent] = listDigestDates("daily");
+  return mostRecent ? readDigest(mostRecent) : null;
+}
