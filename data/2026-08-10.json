@@ -1,0 +1,1142 @@
+{
+  "date": "2026-08-10",
+  "kind": "daily",
+  "headline": "Netanyahu rejects Trump's Gaza plan as Hormuz deal hopes fade",
+  "tldr": [
+    "Netanyahu publicly rejected Trump's 15-point Gaza peace plan at Sunday's Cabinet meeting, with Israeli elections looming in October.",
+    "Iran denied direct US negotiations on Hormuz transit, pushing S&P 500 futures lower despite Friday's record close driven by soft jobs data.",
+    "UK motor insurance market forecast to worsen to a 108% NCR in 2026 before premiums rise 4% this year and 12% in 2027.",
+    "European equities in their strongest position of the year — Stoxx 600 up 11% year-to-date, fund managers now net overweight after being 15% underweight in June.",
+    "Power BI July update ships TMDL editing in the browser and changes how downloading a .pbix from a semantic model works, potentially breaking existing team workflows."
+  ],
+  "sections": [
+    {
+      "id": "investing",
+      "title": "Markets",
+      "status": "ok",
+      "body": "The key new development since yesterday is the Hormuz deal optimism dimming — Iran denied direct negotiations with the US, which is moving futures this morning. That's a genuine update. Let me now compile this.\n\n**The new since yesterday:**\n- Iran denied engaging in direct negotiations with the US, dampening hopes of a Hormuz deal and pushing S&P futures lower Monday morning\n- Asia bounced overnight (Nikkei +0.54%), tracking Friday's jobs-driven US rally\n- European markets are a fresh story — the Stoxx 600 context and fund manager positioning shift\n- Friday's root cause: soft July jobs report reduced Fed rate-hike urgency, which drove Friday's S&P record\n- Japan household spending miss adds a domestic Japan headwind\n\n---\n\n**The Hormuz situation is the NEW element** — yesterday I told Sam the draft plan was the key watch. Now there's an actual update: Iran has publicly denied talks are happening, which is material.\n\nThe Friday jobs print driving Friday's gains is background context Sam already had (I mentioned the S&P close and VIX). But the *cause* (soft jobs → Fed hold → rally) was not fully explained yesterday — I focused on oil/Hormuz. So I can briefly note it as causal context for Monday's opening position.\n\nHere's my section:\n\n---\n\nThe dominant overnight development is a **deflation of Hormuz optimism**. \nInvestor optimism that the US and Iran might be close to an agreement on free transit of the Hormuz strait dimmed over the weekend after Iran denied engaging in any direct negotiations with the US.\n That denial is the reason \nS&P 500 futures edged lower early Monday amid growing doubts that a deal is imminent.\n Oil holding near $78/barrel reflects the same unease.\n\nThe Friday rally that sets today's starting point had a distinct cause: \nUS equity markets ended Friday at a record high after the July jobs report showed an unexpected decline in payrolls — investors focused on the softer wage and hiring trends, which may reduce inflationary pressure and give the Fed less urgency to hike rates.\n \nBond yields declined, with the 10-year Treasury near 4.64%.\n That's the rate-expectations logic underpinning the current equity level.\n\nIn Asia this morning, \nthe Nikkei 225 added over 0.54% while the Kospi gained 0.53%\n — a partial catch-up to Friday's US move. Friday's Nikkei had been weighed by two separate headwinds: \na rebound in oil prices on Hormuz tensions, and domestic data showing Japan's household spending fell 3.3% in June, defying expectations for a 1% increase.\n\n\nEuropean markets are in a structurally stronger position than they've been all year. \nThe Stoxx 600 has rallied 11% year-to-date, with the DAX, CAC 40, and Italian FTSE MIB hitting all-time peaks.\n The institutional shift is notable: \na net 2% of fund managers are now overweight European equities, compared with 15% who were underweight in June.\n The FTSE 100 is participating but structurally lags continental peers because \nLondon's energy-heavy composition means its fortunes on any given day are disproportionately shaped by commodity prices\n rather than the tech and growth earnings driving the DAX.\n\n**In the portfolio:** ASML +2.15% continues to benefit from the tech-friendly rate backdrop — \nASML was among the top performers in the Euro Stoxx 50 last week.\n AMD -1.21% is a drag; the two chip names are diverging because ASML is equipment (picks-and-shovels, less exposed to end-demand risk) while AMD is more sensitive to near-term AI spending sentiment. IJPN's +0.78% likely reflects this morning's Nikkei bounce. BAE +0.91% and QinetiQ +1.19% continue firm.\n\n**Watch:** Iran's public denial of US talks is the live variable. If it hardens, oil moves up, yields follow, and the whole rate-cut narrative gets repriced against equities currently sitting at record multiples.",
+      "sources": [
+        {
+          "title": "10 August, 2026 Stock Market Updates: Sensex flat, Nifty above 24,500 amid strong global cues - India TV News",
+          "url": "https://www.indiatvnews.com/business/markets/10-august-2026-stock-market-updates-sensex-flat-nifty-above-24-500-amid-strong-global-cues-2026-08-10-1050882",
+          "outlet": "indiatvnews.com"
+        },
+        {
+          "title": "Stock market news for Aug. 4, 2026",
+          "url": "https://www.cnbc.com/2026/08/03/stock-market-today-live-updates.html",
+          "outlet": "cnbc.com"
+        },
+        {
+          "title": "Stock market news for Aug. 3, 2026",
+          "url": "https://www.cnbc.com/2026/08/02/stock-market-today-live-updates.html",
+          "outlet": "cnbc.com"
+        },
+        {
+          "title": "Stock Market News Today | Edward Jones",
+          "url": "https://www.edwardjones.com/us-en/market-news-insights/stock-market-news/daily-market-recap",
+          "outlet": "edwardjones.com"
+        },
+        {
+          "title": "Stock market news for Aug. 6, 2026",
+          "url": "https://www.cnbc.com/2026/08/05/stock-market-today-live-updates.html",
+          "outlet": "cnbc.com"
+        },
+        {
+          "title": "www.mexc.com",
+          "url": "https://www.mexc.com/news/701694",
+          "outlet": "mexc.com"
+        },
+        {
+          "title": "stock market today jan 2 164540630",
+          "url": "https://finance.yahoo.com/news/stock-market-today-jan-2-164540630.html",
+          "outlet": "finance.yahoo.com"
+        },
+        {
+          "title": "FTSE 100: London Benchmark Edges Down to 10,857.70 as Energy Stocks Offset Broader Optimism",
+          "url": "https://www.bbntimes.com/financial/ftse-100-london-benchmark-edges-down-to-10-857-70-as-energy-stocks-offset-broader-optimism",
+          "outlet": "bbntimes.com"
+        },
+        {
+          "title": "European Markets Surge: FTSE 100, CAC 40, DAX 40, FTSE MIB, and Euro Stoxx 50 Hit Record Highs",
+          "url": "https://www.bbntimes.com/financial/european-markets-surge-ftse-100-cac-40-dax-40-ftse-mib-and-euro-stoxx-50-hit-record-highs",
+          "outlet": "bbntimes.com"
+        },
+        {
+          "title": "FTSE 100 Historical Data (FTSE) - Investing.com",
+          "url": "https://www.investing.com/indices/uk-100-historical-data",
+          "outlet": "investing.com"
+        },
+        {
+          "title": "FTSE 100 Index",
+          "url": "https://en.wikipedia.org/wiki/FTSE_100_Index",
+          "outlet": "en.wikipedia.org"
+        },
+        {
+          "title": "FTSE All-Share Index",
+          "url": "https://en.wikipedia.org/wiki/FTSE_All-Share_Index",
+          "outlet": "en.wikipedia.org"
+        },
+        {
+          "title": "FTSE 100 (^FTSE) Charts, Data & News - Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/%5EFTSE/",
+          "outlet": "finance.yahoo.com"
+        },
+        {
+          "title": "FTSE 100, DAX 40, CAC 40 Share Prices & Charts (LIVE DATA)",
+          "url": "https://www.morningstar.com.au/market/europe",
+          "outlet": "morningstar.com.au"
+        },
+        {
+          "title": "FTSE 100: historical performance 2000 to 2026",
+          "url": "https://curvo.eu/backtest/en/market-index/ftse-100",
+          "outlet": "curvo.eu"
+        },
+        {
+          "title": "Europe’s hot stock markets are creating a buzz among investors | Fortune",
+          "url": "https://fortune.com/2026/08/09/europe-stock-markets-stoxx-600-dax-cac-40-ftse-mib/",
+          "outlet": "fortune.com"
+        },
+        {
+          "title": "FTSE 100 Rises 0.5% at the Close | 24/7 Wall St.",
+          "url": "https://247wallst.com/cards/london-finished-at-10-921-68-another-step-deeper-into-recor-ftse-market-bell-01kzedqayvjf730f7k0tvnqbe7",
+          "outlet": "247wallst.com"
+        },
+        {
+          "title": "S&P 500 (^GSPC) Historical Data - Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/%5EGSPC/history/",
+          "outlet": "finance.yahoo.com"
+        },
+        {
+          "title": "US Stock Market This Week - 2026-08-10 - Tradingkey",
+          "url": "https://www.tradingkey.com/tools/market-update/us-stock-market-this-week-20260810",
+          "outlet": "tradingkey.com"
+        },
+        {
+          "title": "Nikkei 225 (^N225) Charts, Data & News - Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/%5EN225/",
+          "outlet": "finance.yahoo.com"
+        },
+        {
+          "title": "Japan Stock Market Index (JP225) - Quote - Chart - Historical Data - News | Trading Economics",
+          "url": "https://tradingeconomics.com/japan/stock-market",
+          "outlet": "tradingeconomics.com"
+        },
+        {
+          "title": "Nikkei (JPY) Overview - CME Group",
+          "url": "https://www.cmegroup.com/markets/equities/international-indices/nikkei-225-yen.html",
+          "outlet": "cmegroup.com"
+        },
+        {
+          "title": "Morning Report Aug 10, 2026 - Morning Report - World Indices - Investtech",
+          "url": "https://www.investtech.com/main/market.php?MarketID=992&product=38",
+          "outlet": "investtech.com"
+        },
+        {
+          "title": "S&P 500 futures slip as traders watch for Strait of Hormuz deal, inflation data: Live updates",
+          "url": "https://www.cnbc.com/2026/08/09/stock-market-today-live-updates.html",
+          "outlet": "cnbc.com"
+        },
+        {
+          "title": "uk.marketscreener.com",
+          "url": "https://uk.marketscreener.com/quote/index/S-P-500-4985/quotes/",
+          "outlet": "uk.marketscreener.com"
+        }
+      ]
+    },
+    {
+      "id": "fpl",
+      "title": "Fantasy Premier League",
+      "status": "ok",
+      "body": "**GW1 — Deadline: Friday 21 Aug, 17:30 BST**\n\n**Prices**\n\n\nPrices remain locked until after Friday's deadline, after which the market opens and rises/falls begin.\n Nothing to act on today — finalise your squad, don't chase price moves.\n\n**Injuries — what's new**\n\nThe pre-fetched data adds a few names not covered yesterday:\n\n- **Mukiele (Sunderland, 6.7% owned)** — knock, 75% chance of playing. Highest-owned of the new flags. Worth monitoring given Sunderland's appealing opener at Ipswich, but don't rely on him.\n- **Alderete (Sunderland, 1.0% owned)** — same knock status, same caveat.\n- **Saliba (Arsenal, 0.5% owned)** — back injury, unknown return. \nSaliba is among the clearest current avoids heading into GW1.\n\n- **Butland & Hughes (Hull City)** — both unknown return dates; low ownership, but relevant if you've been tempted by Hull's manageable opener.\n- **Ugarte & De Ligt (Man Utd)** — \nunknown return dates\n, compounding the doubts around United's backline.\n\n**Differentials**\n\n\nHavertz (Arsenal, £7.5m, 6.9%) leads the differential conversation with an xGI/90 of 0.62, the highest figure in the low-ownership pool.\n \nMateta offers a cheaper route to similar upside.\n \nIf you don't own Haaland, Bruno Fernandes is the next-best armband option; Gabriel remains a genuine differential captain for the brave, given his set-piece threat and clean-sheet upside.\n\n\nFor GW1 captain, \nHaaland projects as the top pick — highest projected points in the game, with Man Utd and Man City premiums next in line.",
+      "sources": [
+        {
+          "title": "Injury News",
+          "url": "https://www.premierleague.com/en/news/4242565/injury-news",
+          "outlet": "premierleague.com"
+        },
+        {
+          "title": "Premier League Latest Injury News – Club by Club Updates",
+          "url": "https://www.premierleague.com/en/latest-player-injuries",
+          "outlet": "premierleague.com"
+        },
+        {
+          "title": "Latest Premier League player injuries - club by club news",
+          "url": "https://www.premierleague.com/en/news/4450606/latest-premier-league-player-injuries-club-by-club-news",
+          "outlet": "premierleague.com"
+        },
+        {
+          "title": "FPL Gameweek 1 Injuries and Suspensions 2026/27 | OneFPL",
+          "url": "https://onefpl.com/blog/who-will-miss-fpl-gameweek-1-2026-27",
+          "outlet": "onefpl.com"
+        },
+        {
+          "title": "Which players will miss Gameweek 1? | FPL Dashboard",
+          "url": "https://fpl.page/article/fpl-gw1-absent-injured-missing-players-world-cup-2627",
+          "outlet": "fpl.page"
+        },
+        {
+          "title": "FPL pre-season: DCL brace, Gudmundsson injury + Frimpong update",
+          "url": "https://www.fantasyfootballscout.co.uk/2026/08/03/fpl-pre-season-dcl-brace-gudmundsson-injury-frimpong-update",
+          "outlet": "fantasyfootballscout.co.uk"
+        },
+        {
+          "title": "EPL Injury Table - Premier Injuries",
+          "url": "https://www.premierinjuries.com/injury-table.php",
+          "outlet": "premierinjuries.com"
+        },
+        {
+          "title": "Injuries And Bans - Best FPL Tips, Advice, Team News, Picks, and Statistics from Fantasy Football Scout",
+          "url": "https://www.fantasyfootballscout.co.uk/fantasy-football-injuries",
+          "outlet": "fantasyfootballscout.co.uk"
+        },
+        {
+          "title": "FPL Gameweek 26 Tips: Injuries and suspensions | Fantasy Premier League 2018-19",
+          "url": "https://sportskeeda.com/football/fpl-gameweek-26-tips-injuries-and-suspensions-fantasy-premier-league-2018-19/2",
+          "outlet": "sportskeeda.com"
+        },
+        {
+          "title": "FPL injury round-up and latest team news for GW1 including Jarrad Branthwaite shock and Phil Foden",
+          "url": "https://www.aol.com/fpl-injury-round-latest-team-145958664.html",
+          "outlet": "aol.com"
+        },
+        {
+          "title": "FPL 2026/27: The ultimate pre-season guide, tips + more",
+          "url": "https://www.fantasyfootballscout.co.uk/fpl-2026-27-the-ultimate-pre-season-guide-tips-more",
+          "outlet": "fantasyfootballscout.co.uk"
+        },
+        {
+          "title": "What would a FPL Gameweek 1 Scout Picks team look like right now?",
+          "url": "https://www.fantasyfootballscout.co.uk/2026/08/04/what-would-a-fpl-gameweek-1-scout-picks-team-look-like-now",
+          "outlet": "fantasyfootballscout.co.uk"
+        },
+        {
+          "title": "FPL Gameweeks 1-5 Rankings: Best Players for 2026/27 | RotoWire",
+          "url": "https://www.rotowire.com/soccer/article/best-fpl-picks-for-gameweeks-1-5-fantasy-premier-league-2026-27-126238",
+          "outlet": "rotowire.com"
+        },
+        {
+          "title": "Buy These Cheap Differentials 🤑 Gameweek 1 FPL Tips 2026/27 - YouTube",
+          "url": "https://www.youtube.com/watch?v=vrP2b-r3PW0",
+          "outlet": "youtube.com"
+        },
+        {
+          "title": "FPL Fixture Analysis for The 2026/27 FPL Season | PL Fixtures",
+          "url": "https://allaboutfpl.com/2026/07/fpl-fixture-analysis-for-the-2026-27-fpl-season-pl-fixtures/",
+          "outlet": "allaboutfpl.com"
+        },
+        {
+          "title": "FPL GW1 Tips 2026/27: Captain Picks & Differentials | FPL Copilot",
+          "url": "https://fplcopilot.com/blog/fpl-gw1-tips-2026-27",
+          "outlet": "fplcopilot.com"
+        },
+        {
+          "title": "FPL Gameweek 1 Differential Picks: Top Low-Ownership Picks | The Football Matrix",
+          "url": "https://thefootballmatrix.com/fpl/fpl-gw1-differentials-2026-27",
+          "outlet": "thefootballmatrix.com"
+        },
+        {
+          "title": "Player Picks FPL - Gameweek 1 - The Fantasy Tool",
+          "url": "https://thefantasytool.com/player-picks-fpl",
+          "outlet": "thefantasytool.com"
+        },
+        {
+          "title": "www.sportskeeda.com",
+          "url": "https://www.sportskeeda.com/football/fpl-2020-21-5-best-captain-choices-gameweek-27-fpl-tips/2",
+          "outlet": "sportskeeda.com"
+        },
+        {
+          "title": "FPL Price Change Predictor Explained 2026/27",
+          "url": "https://onefpl.com/blog/fpl-price-change-predictor-explained-2026-27",
+          "outlet": "onefpl.com"
+        },
+        {
+          "title": "FPL player price changes: how, why and when does it happen?",
+          "url": "https://www.premierleague.com/en/news/2858775",
+          "outlet": "premierleague.com"
+        },
+        {
+          "title": "LiveFPL Price Changes",
+          "url": "https://www.livefpl.net/prices",
+          "outlet": "livefpl.net"
+        },
+        {
+          "title": "FPL Daily Price Changes – 07/08/2026",
+          "url": "https://fpledits.com/fpl-price-changes",
+          "outlet": "fpledits.com"
+        },
+        {
+          "title": "FPL player price change prediction tool | Fantasy Football Hub",
+          "url": "https://www.fantasyfootballhub.co.uk/fantasy-premier-league-price-rises",
+          "outlet": "fantasyfootballhub.co.uk"
+        },
+        {
+          "title": "FPL Dashboard",
+          "url": "https://fpl.page/",
+          "outlet": "fpl.page"
+        },
+        {
+          "title": "FPL Price Change Predictions | Fantasy Football Scout",
+          "url": "https://www.fantasyfootballscout.co.uk/fpl/price-predictions/",
+          "outlet": "fantasyfootballscout.co.uk"
+        },
+        {
+          "title": "LiveFPL Price Predictor",
+          "url": "https://plan.livefpl.net//price_changes",
+          "outlet": "plan.livefpl.net"
+        },
+        {
+          "title": "FPL | Rates and Your Bill",
+          "url": "https://www.fpl.com/rates.html",
+          "outlet": "fpl.com"
+        },
+        {
+          "title": "FPL Price Changes | FPL Dashboard - FPL Focal",
+          "url": "https://fpl.page/price-changes",
+          "outlet": "fpl.page"
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "title": "Data & BI",
+      "status": "ok",
+      "body": "Nothing from the BigQuery or semantic layer searches is genuinely new since yesterday's section — the BigQuery items are from April/May, the Looker self-service Explores item is from June, and the semantic layer stories are older summaries or the Snowflake Autopilot item already covered yesterday. The July Power BI feature summary, however, contains two items not covered yesterday: **TMDL View on the web** and the change to **downloading a .pbix from a semantic model**. These are substantive and fresh enough to report.\n\n---\n\n**Data & BI** · 10 August 2026\n\nTwo further items from the July Power BI feature summary worth flagging — neither was in yesterday's briefing.\n\n**TMDL View lands in the Power BI Service**\n\n\nThe July update ships TMDL View on the web\n — meaning you can now inspect and edit Tabular Model Definition Language directly in the browser, not just in Desktop. This matters for teams who do model review or light edits on machines without Desktop installed, and makes TMDL a more credible standard for source-controlled semantic model development.\n\n**Downloading a .pbix from a semantic model now behaves differently**\n\n\nWhen you download a .pbix from a semantic model, you now get an empty report with the dataset only; to get the report with the dataset, you go to the report itself in the Service. The change is intended to fix inconsistent results that came from downloading via the semantic model route.\n\n\nIf your team or end users have documented a \"download and share\" workflow that starts from the semantic model, those steps now produce a different artefact. Worth checking any runbooks or support docs.",
+      "sources": [
+        {
+          "title": "Power BI July 2026 Feature Summary - Microsoft Fabric Community",
+          "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-July-2026-Feature-Summary/ba-p/5303533",
+          "outlet": "community.fabric.microsoft.com"
+        },
+        {
+          "title": "Power BI June 2026 Feature Summary - Microsoft Fabric Community",
+          "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-June-2026-Feature-Summary/ba-p/5193264",
+          "outlet": "community.fabric.microsoft.com"
+        },
+        {
+          "title": "See What's New in the July 2026 Power BI Update - Power BI | Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/power-bi/fundamentals/whats-new",
+          "outlet": "learn.microsoft.com"
+        },
+        {
+          "title": "Power BI 2026 Updates: Official Changes, Real Impact, and How to Prepare as a Power BI Professional | by David Marvellous | Power BI | Medium",
+          "url": "https://medium.com/microsoft-power-bi/power-bi-2026-updates-official-changes-real-impact-and-how-to-prepare-as-a-power-bi-professional-c7c581173fe4",
+          "outlet": "medium.com"
+        },
+        {
+          "title": "Power BI February 2026 Feature Summary - Microsoft Fabric Community",
+          "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-February-2026-Feature-Summary/ba-p/5173936",
+          "outlet": "community.fabric.microsoft.com"
+        },
+        {
+          "title": "Power BI Updates 2025–2026: Practical Overview with Examples | by Ria Singh | Medium",
+          "url": "https://medium.com/@singhria.0829/power-bi-updates-2025-2026-practical-overview-with-examples-67bf6c4ae0d1",
+          "outlet": "medium.com"
+        },
+        {
+          "title": "Power BI Updates by Microsoft - July 2026 - Releasebot",
+          "url": "https://releasebot.io/updates/microsoft/power-bi",
+          "outlet": "releasebot.io"
+        },
+        {
+          "title": "Unveiling new BigQuery capabilities for the agentic era | Google Cloud Blog",
+          "url": "https://cloud.google.com/blog/products/data-analytics/unveiling-new-bigquery-capabilities-for-the-agentic-era",
+          "outlet": "cloud.google.com"
+        },
+        {
+          "title": "BigQuery's New Capabilities Explored for 2025",
+          "url": "https://www.owox.com/blog/articles/bigquery-new-capabilities",
+          "outlet": "owox.com"
+        },
+        {
+          "title": "Google BigQuery for Data Analytics: Complete Platform Guide (2026)",
+          "url": "https://www.findanomaly.ai/google-bigquery-data-analytics-complete-guide-2026",
+          "outlet": "findanomaly.ai"
+        },
+        {
+          "title": "5 BigQuery features worth knowing - Adswerve",
+          "url": "https://adswerve.com/technical-insights/5-new-bigquery-features",
+          "outlet": "adswerve.com"
+        },
+        {
+          "title": "BigQuery | AI data platform | EDW",
+          "url": "https://cloud.google.com/bigquery",
+          "outlet": "cloud.google.com"
+        },
+        {
+          "title": "What’s new with Google Data Cloud | Google Cloud Blog",
+          "url": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud",
+          "outlet": "cloud.google.com"
+        },
+        {
+          "title": "BigQuery release notes archive | Google Cloud Documentation",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes-archive",
+          "outlet": "docs.cloud.google.com"
+        },
+        {
+          "title": "Jump to Content",
+          "url": "https://cloud.google.com/blog/topics/developers-practitioners/hidden-gems-google-bigquery",
+          "outlet": "cloud.google.com"
+        },
+        {
+          "title": "Jump to Content",
+          "url": "https://cloud.google.com/blog/products/data-analytics/new-month-data-analytics-simple-sophisticated-and-secure",
+          "outlet": "cloud.google.com"
+        },
+        {
+          "title": "AtScale Announces Agenda and Registration for 2026 Semantic Layer Summit",
+          "url": "https://www.atscale.com/press/2026-semantic-layer-summit-keynote-agenda-announced/",
+          "outlet": "atscale.com"
+        },
+        {
+          "title": "AtScale Announces Agenda and Registration for 2026 Semantic Layer Summit - BigDATAwire",
+          "url": "https://www.hpcwire.com/bigdatawire/this-just-in/atscale-announces-agenda-and-registration-for-2026-semantic-layer-summit/",
+          "outlet": "hpcwire.com"
+        },
+        {
+          "title": "Sema4.ai Launches Semantic Layer for AI-Powered Enterprise Data Access at Gartner Data & Analytics Summit 2026",
+          "url": "https://sema4.ai/newsroom/sema4-ai-semantic-layer-gartner-data-analytics-summit-2026/",
+          "outlet": "sema4.ai"
+        },
+        {
+          "title": "Best Semantic Layer Tools (2026) | Top Platforms for AI & BI Analytics",
+          "url": "https://www.kyvosinsights.com/ai/best-semantic-layer-tools-2026/",
+          "outlet": "kyvosinsights.com"
+        },
+        {
+          "title": "Semantic Layer Summit 2026",
+          "url": "https://www.semanticlayersummit.com/",
+          "outlet": "semanticlayersummit.com"
+        },
+        {
+          "title": "Semantic Layer Set to Become the Next Piece of Infrastructure - Futurum",
+          "url": "https://futurumgroup.com/press-release/semantic-layer-set-to-become-the-next-piece-of-critical-infrastructure/",
+          "outlet": "futurumgroup.com"
+        },
+        {
+          "title": "Semantic Layer for AI and BI (2026): Why It Matters, How to Choose, and How to Implement It - Omni Analytics",
+          "url": "https://omni.co/articles/best-semantic-layer-for-ai-and-bi-2026",
+          "outlet": "omni.co"
+        },
+        {
+          "title": "Semantic Layers in 2025: A Catalog Owner and Data Leader Playbook",
+          "url": "https://coalesce.io/data-insights/semantic-layers-2025-catalog-owner-data-leader-playbook/",
+          "outlet": "coalesce.io"
+        },
+        {
+          "title": "Top 10 Semantic Layer Tools in 2026: The Definitive Comparison",
+          "url": "https://promethium.ai/guides/top-10-semantic-layer-tools-2026-definitive-comparison/",
+          "outlet": "promethium.ai"
+        },
+        {
+          "title": "Best Semantic Layer Solutions for Data Teams | Kaelio",
+          "url": "https://www.kaelio.com/blog/best-semantic-layer-solutions-for-data-teams-2026-guide",
+          "outlet": "kaelio.com"
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "title": "Career & Data Leadership",
+      "status": "ok",
+      "body": "**Hiring conditions**\n\n\nUK job vacancies have continued their multi-year decline, sitting around 717,000 in the July–September window\n — yet data roles remain largely insulated. \nLinkedIn's Jobs on the Rise 2026 report makes clear that AI and data roles are leading the market, not merely participating in it, as organisations accelerate adoption and push for greater value from data assets.\n \nRoles such as AI Engineer and Head of AI sit at the top of the fastest-growing jobs list\n — Head of Data sits in the same hiring cluster and benefits from the same scarcity premium.\n\n**Geography & the Milton Keynes angle**\n\n\nRemote working has compressed but not eliminated the London premium — London roles still pay roughly 20–30% more than equivalents in Manchester, Leeds, and Birmingham, though purchasing power is broadly comparable once cost of living is factored in.\n For a Milton Keynes–based senior hire, that London differential is narrowing further; roles that allow hybrid working from the Midlands/South Midlands corridor are increasingly competitive on total reward.\n\n**Leadership lens — foundations before outputs**\n\nFresh practical signal from practitioners: \nanalytics leaders are being advised to shift effort away from building more outputs and toward fixing the foundations those outputs depend on — starting by consolidating where critical KPIs are defined differently across teams into shared, governed semantic layers.\n The sharper framing from [The Executive Outlook](https://theexecutiveoutlook.com/blogs/effective-data-leadership-tips-lead-drive-impact-2026): \nthe impact ceiling of any data programme is set by the analytical capability of the business leaders consuming its outputs — a sophisticated analytics capability serving a low–data-literacy leadership team produces underutilised insight and frustrated data teams.\n That's a concrete interview narrative: your job isn't building the platform, it's raising the floor of the business around it.\n\n\nCandidate mobility is increasing — 66% of data specialists are open to new opportunities this year\n, which cuts both ways: competition for roles is real, but so is the window to move.",
+      "sources": [
+        {
+          "title": "Hiring Trends in the UK - (May 2026)",
+          "url": "https://www.qureos.com/hiring-guide/hiring-trends-in-the-uk",
+          "outlet": "qureos.com"
+        },
+        {
+          "title": "AI & Data Talent Tops the List: What Jobs on the Rise 2026 Tells Us About the UK Market | Maxwell Bond",
+          "url": "https://www.maxwellbond.co.uk/insights/blog/ai-and-data-talent-tops-the-list-what-jobs-on-the-rise-2026-tells-us-about-the-uk-market",
+          "outlet": "maxwellbond.co.uk"
+        },
+        {
+          "title": "Data Engineering Hiring Trends 2026: What to Watch Out For (For Job Seekers & Recruiters) | Data Engineering Jobs",
+          "url": "https://dataengineeringjobs.co.uk/career-advice/data-engineering-hiring-trends-2026-what-to-watch-out-for-for-job-seekers-recruiters-",
+          "outlet": "dataengineeringjobs.co.uk"
+        },
+        {
+          "title": "Leadership Hiring Trends for 2026 — Suzie Walker Executive Search",
+          "url": "https://suziewalkerexecutivesearch.co.uk/content/leadership-hiring-trends-for-2026",
+          "outlet": "suziewalkerexecutivesearch.co.uk"
+        },
+        {
+          "title": "UK Labour Market Trends 2026: Hiring Data and Sector Insights - EWS",
+          "url": "https://www.ews-limited.com/uk-labour-market-trends-2026-hiring-data-sector-insights/",
+          "outlet": "ews-limited.com"
+        },
+        {
+          "title": "Data Job Market Report (UK) - Jun 2026",
+          "url": "https://www.learningpeople.com/uk/career-insights/job-market-insights/data/",
+          "outlet": "learningpeople.com"
+        },
+        {
+          "title": "UK salary trends 2026: roles, skills and industries in highest demand.",
+          "url": "https://www.randstaddigital.com/insights/blogs/managed-solutions/uk-salary-trends-2026-roles-skills-industries-highest-demand/",
+          "outlet": "randstaddigital.com"
+        },
+        {
+          "title": "Explore Our 2026 UK Salary Guide | Morgan McKinley",
+          "url": "https://www.morganmckinley.com/uk/salary-guide",
+          "outlet": "morganmckinley.com"
+        },
+        {
+          "title": "UK salary guide 2026 – average salaries & trends | Reed",
+          "url": "https://www.reed.com/tools/uk-salary-guide-2026",
+          "outlet": "reed.com"
+        },
+        {
+          "title": "2026 UK Data Analysis Salary Guide | Digital Waffle",
+          "url": "https://www.digitalwaffle.co/salary-guides/data-analysis-salaries",
+          "outlet": "digitalwaffle.co"
+        },
+        {
+          "title": "UK Tech Salary Benchmarks 2026: What Every Role Is Actually Paying | CareerPulse",
+          "url": "https://careerpulse.uk/blog/uk-tech-salary-benchmarks-2026",
+          "outlet": "careerpulse.uk"
+        },
+        {
+          "title": "2026 UK salary guide | Randstad Digital",
+          "url": "https://www.randstaddigital.com/2026-uk-salary-guide/",
+          "outlet": "randstaddigital.com"
+        },
+        {
+          "title": "UK Data & Analytics Salary Expectations in 2026: Hiring Trends and Workforce Planning - Bristow Holland",
+          "url": "https://www.bristowholland.com/insights/industry-insights/uk-data-analytics-salary-expectations-in-2026-hiring-trends-and-workforce-planning/",
+          "outlet": "bristowholland.com"
+        },
+        {
+          "title": "2026 UK Data Salary Guide | Digital Waffle",
+          "url": "https://www.digitalwaffle.co/salary-guides/data-salaries",
+          "outlet": "digitalwaffle.co"
+        },
+        {
+          "title": "The UK Software, Product & IT Salary Benchmark Report (2026) | MRJ Recruitment",
+          "url": "https://www.mrjrecruitment.com/resources/download/the-uk-software--product---it-salary-benchmark-report--2026-/",
+          "outlet": "mrjrecruitment.com"
+        },
+        {
+          "title": "2026 UK Salary Guides | Digital Waffle",
+          "url": "https://www.digitalwaffle.co/salary-guides",
+          "outlet": "digitalwaffle.co"
+        },
+        {
+          "title": "Data Strategy for 2026: What Data-Driven Leaders Must Get Right | by Kavika Roy | Medium",
+          "url": "https://medium.com/@kavika.roy/data-strategy-for-2026-what-data-driven-leaders-must-get-right-44e4f98854eb",
+          "outlet": "medium.com"
+        },
+        {
+          "title": "AI and Data Strategy in 2026: What Data Leaders Must Get Right | Analytics8",
+          "url": "https://www.analytics8.com/blog/ai-and-data-strategy-in-2026-what-leaders-need-to-get-right/",
+          "outlet": "analytics8.com"
+        },
+        {
+          "title": "What Data-Driven Leaders Must Get Right in 2026?",
+          "url": "https://www.datatobiz.com/blog/what-data-driven-leaders-must-get-right/",
+          "outlet": "datatobiz.com"
+        },
+        {
+          "title": "Key Strategic Priorities for Data and AI Leadership in 2026 — Apptad",
+          "url": "https://apptad.com/insights/key-strategic-priorities-for-data-and-ai-leadership-in-2026/",
+          "outlet": "apptad.com"
+        },
+        {
+          "title": "The Top Strategic Priorities Guiding Data and AI Leaders in 2026",
+          "url": "https://www.pacificdataintegrators.com/blogs/top-strategic-priorities-data-ai-leaders-2026",
+          "outlet": "pacificdataintegrators.com"
+        },
+        {
+          "title": "2026 Data Trends: How Data Strategy Must Evolve for Competitive Advantage",
+          "url": "https://data-sleek.com/blog/2026-data-trends/",
+          "outlet": "data-sleek.com"
+        },
+        {
+          "title": "Key Strategic Priorities for Data and AI Leadership in 2026 - Apptad",
+          "url": "https://apptad.com/blogs/key-strategic-priorities-for-data-and-ai-leadership-in-2026/",
+          "outlet": "apptad.com"
+        },
+        {
+          "title": "Data Trends 2026: What Leaders Need to Know Right Now",
+          "url": "https://datadrivendaily.com/data-trends-2026-what-leaders-need-to-know-right-now/",
+          "outlet": "datadrivendaily.com"
+        },
+        {
+          "title": "Effective Data Leadership: Tips to Lead and Drive Impact in 2026 | The Executive Outlook",
+          "url": "https://theexecutiveoutlook.com/blogs/effective-data-leadership-tips-lead-drive-impact-2026",
+          "outlet": "theexecutiveoutlook.com"
+        }
+      ]
+    },
+    {
+      "id": "insurance",
+      "title": "UK Insurance",
+      "status": "ok",
+      "body": "**UK Insurance**\n\n**Motor: losses deepening, pricing turn now under way**\n\n\nEY's latest analysis (published late July) forecasts the UK motor market will remain loss-making through 2026 and 2027. After a profitable 2024 (NCR 98%), the market slipped back into the red in 2025 at an estimated NCR of 102%, with a worse 108% now forecast for this year.\n \nThe weaker outlook is driven primarily by premium rate reductions since late 2024 feeding through to earned premium, alongside persistent claims inflation.\n\n\nPricing is now turning. \nAfter premiums fell almost 12% during 2025, EY expects motor premiums to rise 4% in 2026 and a further 12% in 2027.\n \nDefaqto also expects increases in the coming months, though any rises are more likely to be gradual and targeted rather than the sharp spikes of the last hard-market cycle.\n\n\nWatch the Consumer Duty angle here: \nas the softening cycle ends, divergence in pricing decisions between carriers is likely to intensify policyholder price sensitivity at renewal and generate Consumer Duty compliance scrutiny where some insurers move sharply whilst others hold.\n\n\n**FCA: rule simplification now live**\n\n\nFCA insurance rule changes came into force in June and July 2026, with most taking effect on 26 June and remaining provisions on 27 July (Handbook Notice No. 142).\n \nBuilding on its December 2025 Policy Statement, the FCA is leaning more heavily on Consumer Duty rather than introducing new product-specific or product governance requirements.\n \nFurther consultations are planned on simplifying GAP insurance rules, general insurance pricing data, and information disclosure requirements.\n Operationally, the compliance burden shifts from rule-checking to evidencing good outcomes — a different discipline for most personal lines teams.\n\n**Distribution: John Lewis home panel expands**\n\n\nJohn Lewis Money has added a personal lines specialist insurer to its home panel\n — worth tracking alongside the IKEA/Urban Jungle move flagged yesterday; both signal that retail brands are actively building out home insurance distribution rather than treating it as a static panel arrangement.\n\n**MGA sector: AI governance now the dominant theme**\n\n\nAt MGAA 2026 last week, the conversation shifted firmly away from AI experimentation and towards responsible deployment, with governance, accountability and decision intelligence becoming central themes.\n \nSeparately, the FCA's focus on proving good customer outcomes is already shifting insurers' AI priorities from adoption to governance\n — regulatory and market pressure now pointing in the same direction.",
+      "sources": [
+        {
+          "title": "UK Insurance Newsletter - April 2026 | Insights | Sidley Austin LLP",
+          "url": "https://www.sidley.com/en/insights/newsupdates/2026/04/uk-insurance-newsletter-april-2026",
+          "outlet": "sidley.com"
+        },
+        {
+          "title": "FCA sets out 2026 insurance priorities - PwC UK",
+          "url": "https://www.pwc.co.uk/industries/financial-services/understanding-regulatory-developments/fca-sets-out-2026-insurance-priorities.html",
+          "outlet": "pwc.co.uk"
+        },
+        {
+          "title": "UK Financial Conduct Authority Reveals Its Regulatory Priorities for the Insurance Sector in 2026 | Skadden, Arps, Slate, Meagher & Flom LLP",
+          "url": "https://www.skadden.com/insights/publications/2026/03/uk-financial-conduct-authority-reveals-its-regulatory-priorities",
+          "outlet": "skadden.com"
+        },
+        {
+          "title": "FCA 2026 Regulatory Priorities Report – Insurance | HFW",
+          "url": "https://www.hfw.com/insights/fca-2026-regulatory-priorities-report-insurance/",
+          "outlet": "hfw.com"
+        },
+        {
+          "title": "Uk Insurance Regulatory Priorities | Global Law Experts",
+          "url": "https://globallawexperts.com/uk-insurance-regulatory-priorities/",
+          "outlet": "globallawexperts.com"
+        },
+        {
+          "title": "FCA priorities 2026: Regulatory guidance for insurance firms",
+          "url": "https://www.brownejacobson.com/insights/horizon-scanning-fca-anticipated-priorities-for-2026/insurance-market",
+          "outlet": "brownejacobson.com"
+        },
+        {
+          "title": "FCA Insurance Rule Changes 2026 | Home Insurance Guide",
+          "url": "https://www.ilauk.co.uk/fca-insurance-rule-changes-what-homeowners-need-to-know/",
+          "outlet": "ilauk.co.uk"
+        },
+        {
+          "title": "Insurtech launches to streamline MGA workflows and eliminate ‘rekeying’ | Insurance Business",
+          "url": "https://www.insurancebusinessmag.com/uk/news/technology/insurtech-launches-to-streamline-mga-workflows-and-eliminate-rekeying-568810.aspx",
+          "outlet": "insurancebusinessmag.com"
+        },
+        {
+          "title": "Latest insurtech news and insights in support of UKGI market",
+          "url": "https://www.insurancetimes.co.uk/topics/techtalk/insurtech",
+          "outlet": "insurancetimes.co.uk"
+        },
+        {
+          "title": "UK general insurance Latest News",
+          "url": "https://www.insurancetimes.co.uk/news",
+          "outlet": "insurancetimes.co.uk"
+        },
+        {
+          "title": "Insurtech News for the UK from Insurance Business",
+          "url": "https://www.insurancebusinessmag.com/uk/news/technology/",
+          "outlet": "insurancebusinessmag.com"
+        },
+        {
+          "title": "Why AI governance is shaping insurance’s next phase",
+          "url": "https://fintech.global/2026/08/04/why-ai-governance-is-shaping-insurances-next-phase/",
+          "outlet": "fintech.global"
+        },
+        {
+          "title": "UKGI insurer news, insights and interviews",
+          "url": "https://www.insurancetimes.co.uk/insurers",
+          "outlet": "insurancetimes.co.uk"
+        },
+        {
+          "title": "Home | Insurance Times",
+          "url": "https://www.insurancetimes.co.uk/",
+          "outlet": "insurancetimes.co.uk"
+        },
+        {
+          "title": "Insurtech secures $50m of backing from technology investor | Insurance Times",
+          "url": "https://www.insurancetimes.co.uk/news/insurtech-secures-50m-of-backing-from-technology-investor/1457792.article",
+          "outlet": "insurancetimes.co.uk"
+        },
+        {
+          "title": "MGA Half Day | InsTech",
+          "url": "https://www.instech.co/past-events/mga-half-day/",
+          "outlet": "instech.co"
+        },
+        {
+          "title": "UK Home and Motor Insurance in 2026: Calm Averages, Noisy Reality and Why Context will Matter More than Ever",
+          "url": "https://www.consumerintelligence.com/articles/uk-home-and-motor-insurance-in-2026-calm-averages-noisy-reality-and-why-context-will-matter-more-than-ever",
+          "outlet": "consumerintelligence.com"
+        },
+        {
+          "title": "UK motor premiums near pricing floor after eight quarters of decline | Insurance Business",
+          "url": "https://www.insurancebusinessmag.com/uk/news/auto-motor/uk-motor-premiums-near-pricing-floor-after-eight-quarters-of-decline-561225.aspx",
+          "outlet": "insurancebusinessmag.com"
+        },
+        {
+          "title": "Briefing: Focus on 2026 key for motor insurers as next year could ...",
+          "url": "https://www.insurancetimes.co.uk/analysis/briefing-focus-on-2026-key-for-motor-insurers-as-next-year-could-be-ugly/1456166.article",
+          "outlet": "insurancetimes.co.uk"
+        },
+        {
+          "title": "UK property insurance 2026: Five trends reshaping the market",
+          "url": "https://www.brownejacobson.com/insights/perils-august-2026/five-trends-reshaping-risk-pricing-and-coverage",
+          "outlet": "brownejacobson.com"
+        },
+        {
+          "title": "United Kingdom Motor Insurance Market Size, Outlook, Share & Growth Drivers 2031",
+          "url": "https://www.mordorintelligence.com/industry-reports/united-kingdom-motor-insurance-market",
+          "outlet": "mordorintelligence.com"
+        },
+        {
+          "title": "UK motor market set for further losses – EY - Insurance Today",
+          "url": "https://www.insurancetoday.co.uk/i2026072401.php",
+          "outlet": "insurancetoday.co.uk"
+        },
+        {
+          "title": "In Focus: How are motor insurers tackling 2026 as market predicted to fall into red? | Insurance Times",
+          "url": "https://www.insurancetimes.co.uk/analysis/in-focus-how-are-motor-insurers-tackling-2026-as-market-predicted-to-fall-into-red/1458099.article",
+          "outlet": "insurancetimes.co.uk"
+        },
+        {
+          "title": "Motor insurance premiums set to rise as insurers face new cost pressures",
+          "url": "https://www.consultancy.uk/news/44466/motor-insurance-premiums-set-to-rise-as-insurers-face-new-cost-pressures",
+          "outlet": "consultancy.uk"
+        },
+        {
+          "title": "UK Motor Insurance Shock 2026 2026 | Top Insurance Guides",
+          "url": "https://wecovr.com/guides/uk-motor-insurance-shock-2026-1/",
+          "outlet": "wecovr.com"
+        },
+        {
+          "title": "UK Insurance Market Statistics: Key Data by Vertical 2026",
+          "url": "https://www.kaeltripton.com/compare/uk-insurance-statistics/",
+          "outlet": "kaeltripton.com"
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "title": "Milton Keynes",
+      "status": "ok",
+      "body": "I'll search across several angles to find what's new today for Milton Keynes.\nNothing from the searches moves the needle significantly on MK Tech Week or the other stories already covered yesterday. The genuinely new items are: the Stantonbury School Ofsted special measures ruling, the MK City of Culture 2029 bid, the FlixBus coach connectivity story, and the Stagecoach driver community story. Let me use these.\n\n**Events — diary these**\n\n- **📅 8 Oct** — \nPowered Up Business Networking returns to The Dolphin, Newport Pagnell — an informal, out-of-hours format designed for real conversations rather than formal pitches.\n Tickets at £9.77. Worth pencilling in as a low-friction way to keep the local network warm ahead of MK Tech Week the following week.\n\n**Local news**\n\n- **City of Culture bid.** \nMK is actively seeking public backing for its bid to become UK City of Culture 2029\n — the council is running a campaign for residents and businesses to register support. A successful bid would bring significant national arts investment and profile to the city.\n\n- **Stantonbury School.** \nStantonbury School has been placed in special measures following an Ofsted inspection\n — a significant local story given it's one of the larger secondaries. Worth monitoring if it triggers wider debate at council level about school standards and capacity in the city.\n\n- **Coach connectivity.** \nThe City Council is championing the growth of sustainable coach services for residents and visitors through FlixBus\n — a quiet but practical transport development that improves intercity connectivity without adding to road traffic.\n\n- **Community.** \nA Stagecoach Midlands driver, Ben Corr, has been recognised after stopping his bus to talk down a man threatening to jump from a bridge\n — awarded Star of the Month, and widely noted locally.",
+      "sources": [
+        {
+          "title": "Milton Keynes - Powered Up Business Networking - October 2026 Tickets, Thursday, October 8 • 7:30 PM - 9:30 PM | Eventbrite",
+          "url": "https://www.eventbrite.co.uk/e/milton-keynes-powered-up-business-networking-october-2026-tickets-1996989213495",
+          "outlet": "eventbrite.co.uk"
+        },
+        {
+          "title": "Networking Events Milton Keynes | MK Business Data",
+          "url": "https://www.miltonkeynesbusinessdata.co.uk/networking-events",
+          "outlet": "miltonkeynesbusinessdata.co.uk"
+        },
+        {
+          "title": "Milton Keynes Tech Week 2026 announces flagship conference theme and initial event partner",
+          "url": "https://www.miltonkeynes.co.uk/news/people/milton-keynes-tech-week-2026-announces-flagship-conference-theme-and-initial-event-partner-8816270",
+          "outlet": "miltonkeynes.co.uk"
+        },
+        {
+          "title": "Business & Networking Events Milton Keynes, Upcoming Startup & Corporate Events Milton Keynes",
+          "url": "https://allevents.in/milton-keynes/business",
+          "outlet": "allevents.in"
+        },
+        {
+          "title": "Milton Keynes Tech Week 2026 to put sovereign technology in the spotlight | Business MK",
+          "url": "https://businessmk.co.uk/articles/technology/milton-keynes-tech-week-2026-to-put-sovereign-technology-in-the-spotlight/",
+          "outlet": "businessmk.co.uk"
+        },
+        {
+          "title": "Milton Keynes Tech Week – championing technology and innovation in the heart of the UK | Milton Keynes City Council",
+          "url": "https://www.milton-keynes.gov.uk/news/2026/milton-keynes-tech-week-championing-technology-and-innovation-heart-uk",
+          "outlet": "milton-keynes.gov.uk"
+        },
+        {
+          "title": "Networking Events in Milton Keynes - Elevate Your Career | Eventbrite",
+          "url": "https://www.eventbrite.com/d/united-kingdom--milton-keynes/networking/",
+          "outlet": "eventbrite.com"
+        },
+        {
+          "title": "Milton Keynes Tech Week 2026 announces conference theme and partners - MKFM 106.3FM - Radio Made in Milton Keynes",
+          "url": "https://www.mkfm.com/news/local-news/milton-keynes-tech-week-2026-announces-conference-theme-and-partners/",
+          "outlet": "mkfm.com"
+        },
+        {
+          "title": "Milton Keynes Tech Week",
+          "url": "https://miltonkeynestechweek.com/",
+          "outlet": "miltonkeynestechweek.com"
+        },
+        {
+          "title": "Milton Keynes | Busy Networking | Business Networking",
+          "url": "https://www.busynetworking.net/meetings/milton-keynes/",
+          "outlet": "busynetworking.net"
+        },
+        {
+          "title": "Milton Keynes City Council",
+          "url": "https://www.milton-keynes.gov.uk/",
+          "outlet": "milton-keynes.gov.uk"
+        },
+        {
+          "title": "Milton Keynes showcases multi billion-pound investment pipeline | Milton Keynes City Council",
+          "url": "https://www.milton-keynes.gov.uk/news/2026/milton-keynes-showcases-multi-billion-pound-investment-pipeline",
+          "outlet": "milton-keynes.gov.uk"
+        },
+        {
+          "title": "Planning applications in our area | Bletchley and Fenny Stratford Town Council",
+          "url": "https://www.bletchleyfennystratford-tc.gov.uk/planning-applications-in-our-area",
+          "outlet": "bletchleyfennystratford-tc.gov.uk"
+        },
+        {
+          "title": "Planning and Development Updates - Keepers Place - Hallam Land",
+          "url": "https://keepersplace.co.uk/planning-and-development",
+          "outlet": "keepersplace.co.uk"
+        },
+        {
+          "title": "Planning round-up: 194 new homes, a community hall and bowls club and changes to the Agora site regeneration are among latest planning proposals for Milton Keynes",
+          "url": "https://www.miltonkeynes.co.uk/news/people/planning-round-up-194-new-homes-a-community-hall-and-bowls-club-and-changes-to-the-agora-site-regeneration-are-among-latest-planning-proposals-for-milton-keynes-8748061",
+          "outlet": "miltonkeynes.co.uk"
+        },
+        {
+          "title": "View and comment on planning applications | Milton Keynes City Council",
+          "url": "https://www.milton-keynes.gov.uk/planning-and-building/planning-applications-apply-pay-and-comment/view-and-comment-planning",
+          "outlet": "milton-keynes.gov.uk"
+        },
+        {
+          "title": "Milton Keynes City Council among commenters on outline plans for 5,000 home development",
+          "url": "https://www.miltonkeynes.co.uk/news/people/milton-keynes-city-council-among-commenters-on-outline-plans-for-5000-home-development-6939392",
+          "outlet": "miltonkeynes.co.uk"
+        },
+        {
+          "title": "Planning Application: PLN/2026/0026",
+          "url": "https://www.be.milton-keynes.gov.uk/pr/s/detail/a0lWS000003Mx9NYAS",
+          "outlet": "be.milton-keynes.gov.uk"
+        },
+        {
+          "title": "Open Council Network - Milton Keynes",
+          "url": "https://opencouncil.network/councils/milton-keynes",
+          "outlet": "opencouncil.network"
+        },
+        {
+          "title": "www.milton-keynes.gov.uk",
+          "url": "https://www.milton-keynes.gov.uk/news?page=40",
+          "outlet": "milton-keynes.gov.uk"
+        },
+        {
+          "title": "News | Milton Keynes City Council",
+          "url": "https://www.milton-keynes.gov.uk/news",
+          "outlet": "milton-keynes.gov.uk"
+        },
+        {
+          "title": "Milton Keynes Theatre confirms autumn season lineup - MKFM 106.3FM - Radio Made in Milton Keynes",
+          "url": "https://www.mkfm.com/news/local-news/milton-keynes-theatre-confirms-autumn-season-lineup/",
+          "outlet": "mkfm.com"
+        },
+        {
+          "title": "2026 Milton Keynes City Council election",
+          "url": "https://en.wikipedia.org/wiki/2026_Milton_Keynes_City_Council_election",
+          "outlet": "en.wikipedia.org"
+        },
+        {
+          "title": "Local News - MKFM 106.3FM - Radio Made in Milton Keynes",
+          "url": "https://www.mkfm.com/news/local-news/",
+          "outlet": "mkfm.com"
+        },
+        {
+          "title": "In full - This week's roadworks across Milton Keynes - MKFM 106.3FM - Radio Made in Milton Keynes",
+          "url": "https://www.mkfm.com/news/local-news/in-full-this-weeks-roadworks-across-milton-keynes/",
+          "outlet": "mkfm.com"
+        },
+        {
+          "title": "Praise for Milton Keynes bus driver - MKFM 106.3FM - Radio Made in Milton Keynes",
+          "url": "https://www.mkfm.com/news/local-news/praise-for-milton-keynes-bus-driver/",
+          "outlet": "mkfm.com"
+        },
+        {
+          "title": "Meet PAW Patrol stars in Milton Keynes this weekend - MKFM 106.3FM - Radio Made in Milton Keynes",
+          "url": "https://www.mkfm.com/news/local-news/meet-paw-patrol-stars-in-milton-keynes-this-weekend/",
+          "outlet": "mkfm.com"
+        },
+        {
+          "title": "News | Milton Keynes Citizen",
+          "url": "https://www.miltonkeynes.co.uk/news",
+          "outlet": "miltonkeynes.co.uk"
+        },
+        {
+          "title": "Latest News across Milton Keynes from MK Community Hub",
+          "url": "https://www.mkcommunityhub.com/news/",
+          "outlet": "mkcommunityhub.com"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "News",
+      "status": "ok",
+      "body": "The search results for purely UK-domestic news this morning are thin — most indexed results on UK politics and economy are from earlier this week (6–7 August), which were already covered in yesterday's section. However, there is a clear, fresh story on Gaza from 9–10 August via Reuters/NBC/Al Jazeera that genuinely moves the situation on. Here is the section:\n\n---\n\n**Gaza peace process fractures.** \nNetanyahu publicly rejected Trump's 15-point Gaza peace plan at a Cabinet meeting on Sunday, saying \"Israel rejects the 15-point document\" and that the IDF will not withdraw until Hamas is fully disarmed.\n \nNetanyahu is in campaign mode ahead of an October election, caught between far-right ministers opposed to any concessions and Trump, who wants progress on ending the conflict.\n \nHamas said it remained committed to implementing the plan and called on mediators to prevent any breaches from derailing it.\n \nTrump's Gaza envoy warned that failure to implement the deal in full risks Hamas rearming and \"increasing the risk of another October 7th.\"\n\n\n- \nSince the ceasefire began last October, at least 1,258 people have been killed and over 4,100 wounded.\n\n\n**UK — quiet morning.** No material developments on the stories covered yesterday (Burnham Budget timetable, bank tax speculation, defence spending, BP North Sea, or jobs data) have broken since. Watch for any Bank of England commentary — \nBloomberg noted last week that rate-watchers are pressing for more signals from BoE Deputy Governor Lombardelli.",
+      "sources": [
+        {
+          "title": "Press TVs news headlines",
+          "url": "https://www.presstv.co.uk/Detail/2026/08/10/774057/Heds",
+          "outlet": "presstv.co.uk"
+        },
+        {
+          "title": "www.euronews.com",
+          "url": "https://www.euronews.com/tag/news?p=163",
+          "outlet": "euronews.com"
+        },
+        {
+          "title": "www.euronews.com",
+          "url": "https://www.euronews.com/index.php/tag/news?p=141",
+          "outlet": "euronews.com"
+        },
+        {
+          "title": "www.euronews.com",
+          "url": "https://www.euronews.com/tag/news?p=225",
+          "outlet": "euronews.com"
+        },
+        {
+          "title": "www.euronews.com",
+          "url": "https://www.euronews.com/index.php/tag/news?p=203",
+          "outlet": "euronews.com"
+        },
+        {
+          "title": "Print Print    Close Close",
+          "url": "https://www-ak-ms.foxnews.com/us/former-prince-andrew-uk-has-reportedly-been-arrested-more-top-headlines.print",
+          "outlet": "www-ak-ms.foxnews.com"
+        },
+        {
+          "title": "World News and International Headlines : NPR",
+          "url": "https://www.npr.org/sections/world/",
+          "outlet": "npr.org"
+        },
+        {
+          "title": "world news",
+          "url": "https://www.euronews.com/tag/world-news?p=7",
+          "outlet": "euronews.com"
+        },
+        {
+          "title": "euronews.com",
+          "url": "https://euronews.com/tag/news?p=2",
+          "outlet": "euronews.com"
+        },
+        {
+          "title": "top news stories today",
+          "url": "https://www.euronews.com/top-news-stories-today",
+          "outlet": "euronews.com"
+        },
+        {
+          "title": "www.euronews.com",
+          "url": "https://www.euronews.com/tag/news",
+          "outlet": "euronews.com"
+        },
+        {
+          "title": "UK Economy: Trending News, Latest Updates, Analysis",
+          "url": "https://www.bloomberg.com/latest/uk-economy",
+          "outlet": "bloomberg.com"
+        },
+        {
+          "title": "2026 in United Kingdom politics and government",
+          "url": "https://en.wikipedia.org/wiki/2026_in_United_Kingdom_politics_and_government",
+          "outlet": "en.wikipedia.org"
+        },
+        {
+          "title": "Governing under pressure: Eight significant forces that will shape UK politics and policy in 2026",
+          "url": "https://www.edelmanglobaladvisory.com/insights/governing-under-pressure-eight-significant-forces-will-shape-uk-politics-and-policy-2026",
+          "outlet": "edelmanglobaladvisory.com"
+        },
+        {
+          "title": "2026: When Elections, the NHS and the Economy Collide - P...",
+          "url": "https://politicsuk.com/news/2026-political-predictions/",
+          "outlet": "politicsuk.com"
+        },
+        {
+          "title": "uk headline economic forecasts",
+          "url": "https://statista.com/statistics/578567/uk-headline-economic-forecasts",
+          "outlet": "statista.com"
+        },
+        {
+          "title": "Friday, January 16, 2026 | 10:40 PM ISTहिंदी में पढें",
+          "url": "https://www.business-standard.com/topic/uk-economy/page-7",
+          "outlet": "business-standard.com"
+        },
+        {
+          "title": "UK Economic Outlook",
+          "url": "https://www.morningstar.com/en-uk/business/insights/research/uk-economic-outlook",
+          "outlet": "morningstar.com"
+        },
+        {
+          "title": "uk politics 69042935",
+          "url": "https://feeds.bbci.co.uk/news/live/uk-politics-69042935?page=5",
+          "outlet": "feeds.bbci.co.uk"
+        },
+        {
+          "title": "Netanyahu Says Israel Won't Pull Out of Gaza Before Hamas Disarms",
+          "url": "https://www.usnews.com/news/world/articles/2026-08-09/israel-rejects-trumps-15-point-plan-for-gaza-pm-netanyahu-says",
+          "outlet": "usnews.com"
+        },
+        {
+          "title": "Israel rejects Trump’s 15-point plan for Gaza, Netanyahu says",
+          "url": "https://www.nbcnews.com/world/israel/israel-rejects-trumps-15-point-plan-gaza-pm-benjamin-netanyahu-says-rcna591555",
+          "outlet": "nbcnews.com"
+        },
+        {
+          "title": "Netanyahu says Israel and Hamas will soon enter second phase of ceasefire | PBS News",
+          "url": "https://www.pbs.org/newshour/world/netanyahu-says-israel-and-hamas-will-soon-enter-second-phase-of-ceasefire",
+          "outlet": "pbs.org"
+        },
+        {
+          "title": "Israel rejects Trump’s 15-point plan for Gaza, stoking tensions with US | Israel-Palestine conflict News | Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/9/israel-rejects-trumps-15-point-plan-for-gaza",
+          "outlet": "aljazeera.com"
+        },
+        {
+          "title": "Analysis: Upsetting Trump is Netanyahu’s least-bad option on Gaza | CNN",
+          "url": "https://www.cnn.com/2026/08/09/middleeast/netanyahu-decision-trump-gaza-plan-analysis-latam-intl",
+          "outlet": "cnn.com"
+        },
+        {
+          "title": "August 13, 2025 10:30 AM",
+          "url": "https://www.newsonair.gov.in/israeli-pm-benjamin-netanyahu-says-partial-gaza-ceasefire-deal-no-longer-possible",
+          "outlet": "newsonair.gov.in"
+        },
+        {
+          "title": "mil 240714 presstv02",
+          "url": "https://www.globalsecurity.org/military/library/news/2024/07/mil-240714-presstv02.htm",
+          "outlet": "globalsecurity.org"
+        },
+        {
+          "title": "mil 240529 presstv09",
+          "url": "https://www.globalsecurity.org/military/library/news/2024/05/mil-240529-presstv09.htm",
+          "outlet": "globalsecurity.org"
+        }
+      ]
+    }
+  ],
+  "markets": {
+    "holdings": [
+      {
+        "symbol": "VUSA.LON",
+        "label": "Vanguard S&P 500 ETF",
+        "price": 109,
+        "changePercent": 0.3337
+      },
+      {
+        "symbol": "VEVE.LON",
+        "label": "Vanguard FTSE Dev World ex-UK",
+        "price": 108.42,
+        "changePercent": 0.3517
+      },
+      {
+        "symbol": "IJPN.LON",
+        "label": "iShares MSCI Japan",
+        "price": 1872.5,
+        "changePercent": 0.7804
+      },
+      {
+        "symbol": "ASML",
+        "label": "ASML",
+        "price": 1740.99,
+        "changePercent": 2.1486
+      },
+      {
+        "symbol": "AMD",
+        "label": "AMD",
+        "price": 483.36,
+        "changePercent": -1.2099
+      },
+      {
+        "symbol": "WDEF.LON",
+        "label": "WisdomTree Europe Defence",
+        "price": 34.2025,
+        "changePercent": 0.3742
+      }
+    ],
+    "watchlist": [
+      {
+        "symbol": "BA.LON",
+        "label": "BAE Systems",
+        "price": 2220,
+        "changePercent": 0.9091
+      },
+      {
+        "symbol": "RR.LON",
+        "label": "Rolls-Royce",
+        "price": 1530,
+        "changePercent": -0.2217
+      },
+      {
+        "symbol": "BABS.LON",
+        "label": "Babcock International",
+        "price": null,
+        "changePercent": null,
+        "error": "No quote returned"
+      },
+      {
+        "symbol": "CHG.LON",
+        "label": "Chemring",
+        "price": 627,
+        "changePercent": 0.4003
+      },
+      {
+        "symbol": "QQ.LON",
+        "label": "QinetiQ",
+        "price": 553.5,
+        "changePercent": 1.1883
+      },
+      {
+        "symbol": "BEZ.LON",
+        "label": "Beazley",
+        "price": 1290.5,
+        "changePercent": -0.0387
+      }
+    ]
+  },
+  "log": [
+    {
+      "sectionId": "markets:holdings",
+      "status": "ok",
+      "durationMs": 81727
+    },
+    {
+      "sectionId": "markets:watchlist",
+      "status": "ok",
+      "durationMs": 78940
+    },
+    {
+      "sectionId": "fpl:api",
+      "status": "ok",
+      "durationMs": 183
+    },
+    {
+      "sectionId": "investing",
+      "status": "ok",
+      "durationMs": 33025
+    },
+    {
+      "sectionId": "fpl",
+      "status": "ok",
+      "durationMs": 19675
+    },
+    {
+      "sectionId": "data",
+      "status": "ok",
+      "durationMs": 15490
+    },
+    {
+      "sectionId": "career",
+      "status": "ok",
+      "durationMs": 19823
+    },
+    {
+      "sectionId": "insurance",
+      "status": "ok",
+      "durationMs": 24305
+    },
+    {
+      "sectionId": "local",
+      "status": "ok",
+      "durationMs": 19203
+    },
+    {
+      "sectionId": "news",
+      "status": "ok",
+      "durationMs": 22605
+    },
+    {
+      "sectionId": "summary",
+      "status": "ok",
+      "durationMs": 6517
+    }
+  ],
+  "generatedAt": "2026-08-10T06:56:20.647Z"
+}
