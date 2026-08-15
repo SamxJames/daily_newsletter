@@ -1,0 +1,717 @@
+{
+  "date": "2026-08-15",
+  "kind": "daily",
+  "headline": "Today's briefing",
+  "tldr": [],
+  "sections": [
+    {
+      "id": "investing",
+      "title": "Markets",
+      "status": "ok",
+      "body": "**Markets — Saturday 15 August 2026**\n\nThe week closes on a softer note after Thursday's record highs. The macro picture shifted on Friday: \na preliminary University of Michigan reading showed Americans grew more pessimistic on the economy, with inflation remaining top of mind\n — enough to dampen the disinflation euphoria that drove Thursday's S&P 500 record. \nA softer-than-expected July retail sales report added to the caution, with headline sales falling 0.6% against expectations of a 0.1% gain.\n \nThe S&P 500 slipped around 0.2% but still capped its third consecutive weekly gain.\n\n\n**FTSE / Europe** — \nLondon closed mixed on Friday, with weak mining and pharmaceutical stocks dragging the FTSE 100 down 22 points to 10,750.\n \nAntofagasta fell 4.6% for a second day after Thursday's lowered production guidance; GSK and AstraZeneca both dropped 2.1%.\n \nFor the week, the FTSE 100 was down 1.4%\n — a notably poor showing against a broadly positive global backdrop.\n\n**Japan** — \nThe Nikkei 225 opened flat as the Bank of Japan signalled faster rate hikes\n, capping the week's AI-driven rally. IJPN's -0.60% in the pre-fetch reflects that BoJ headwind.\n\n**Sam's portfolio** — AMD's +6.50% is the standout mover. \nSuper Micro Computer beat earnings expectations by 84% and CoreWeave's sales forecast also topped estimates\n — when two major AI infrastructure names lift forward shipment expectations in the same week, \ninvestors typically reprice the chip suppliers, which explains the concurrent gains in AMD.\n Defence names (BAE +0.98%, Rolls-Royce +1.05%, Chemring +1.29%) have recovered Friday's dip from yesterday's briefing, suggesting the profit-taking was shallow.",
+      "sources": [
+        {
+          "title": "Stock Market Today: Dow, S&P Live Updates for August 14 - Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-13/asian-stocks-set-for-gains-as-us-inflation-cools-markets-wrap",
+          "outlet": "bloomberg.com"
+        },
+        {
+          "title": "Stock market news for Aug. 13, 2026",
+          "url": "https://www.cnbc.com/2026/08/12/stock-market-today-live-updates.html",
+          "outlet": "cnbc.com"
+        },
+        {
+          "title": "Stock Market News Today | Edward Jones",
+          "url": "https://www.edwardjones.com/us-en/market-news-insights/stock-market-news/daily-market-recap",
+          "outlet": "edwardjones.com"
+        },
+        {
+          "title": "Stock market news for Aug. 10, 2026",
+          "url": "https://www.cnbc.com/2026/08/09/stock-market-today-live-updates.html",
+          "outlet": "cnbc.com"
+        },
+        {
+          "title": "Stock market today: S&P 500 slips from record high but caps third straight week of gains",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-14-dow-sp-500-nasdaq-102635519.html",
+          "outlet": "finance.yahoo.com"
+        },
+        {
+          "title": "stock market today jan 2 164540630",
+          "url": "https://finance.yahoo.com/news/stock-market-today-jan-2-164540630.html",
+          "outlet": "finance.yahoo.com"
+        },
+        {
+          "title": "Thursday, January 15, 2026 | 08:30 AM ISTहिंदी में पढें",
+          "url": "https://www.business-standard.com/topic/indian-stock-markets",
+          "outlet": "business-standard.com"
+        },
+        {
+          "title": "www.mexc.com",
+          "url": "https://www.mexc.com/news/737187",
+          "outlet": "mexc.com"
+        },
+        {
+          "title": "GqDK7EaS Nifty directions and levels for August 21st",
+          "url": "https://cn.tradingview.com/chart/NIFTY/GqDK7EaS-Nifty-directions-and-levels-for-August-21st",
+          "outlet": "cn.tradingview.com"
+        },
+        {
+          "title": "FTSE 100 Closes at 10,821 as European Markets Slip Into the Red | 24/7 Wall St.",
+          "url": "https://247wallst.com/cards/london-held-up-best-in-a-red-european-close-giving-back-jus-ftse-market-bell-01kzv9qbz4nmga5r6cb97aj94v",
+          "outlet": "247wallst.com"
+        },
+        {
+          "title": "European Markets Surge: FTSE 100, CAC 40, DAX 40, FTSE MIB, and Euro Stoxx 50 Hit Record Highs",
+          "url": "https://www.bbntimes.com/financial/european-markets-surge-ftse-100-cac-40-dax-40-ftse-mib-and-euro-stoxx-50-hit-record-highs",
+          "outlet": "bbntimes.com"
+        },
+        {
+          "title": "FTSE 100 drifts lower in mixed day for Europe - Newswav",
+          "url": "https://newswav.com/article/ftse-100-drifts-lower-in-mixed-day-for-europe-A2608_4h00Ej",
+          "outlet": "newswav.com"
+        },
+        {
+          "title": "FTSE 100 flat at 10,772 while DAX edges up: what it means for European stocks | 24/7 Wall St.",
+          "url": "https://247wallst.com/cards/london-opens-unchanged-at-10-772-while-frankfurt-inches-high-ftse-market-bell-01kzzk1q78dhyndppbh3khj8vh",
+          "outlet": "247wallst.com"
+        },
+        {
+          "title": "FTSE 100 drifts lower in mixed day for Europe",
+          "url": "https://uk.finance.yahoo.com/news/ftse-100-drifts-lower-mixed-162506807.html",
+          "outlet": "uk.finance.yahoo.com"
+        },
+        {
+          "title": "FTSE 100 Index | View Companies and Share Performance | Fidelity",
+          "url": "https://www.fidelity.co.uk/shares/ftse-100/",
+          "outlet": "fidelity.co.uk"
+        },
+        {
+          "title": "FTSE 100 Index",
+          "url": "https://en.wikipedia.org/wiki/FTSE_100_Index",
+          "outlet": "en.wikipedia.org"
+        },
+        {
+          "title": "FTSE 100 drifts lower in mixed day for Europe | MarketScreener",
+          "url": "https://www.marketscreener.com/news/ftse-100-drifts-lower-in-mixed-day-for-europe-ce7859dfd98cf527",
+          "outlet": "marketscreener.com"
+        },
+        {
+          "title": "FTSE All-Share Index",
+          "url": "https://en.wikipedia.org/wiki/FTSE_All-Share_Index",
+          "outlet": "en.wikipedia.org"
+        },
+        {
+          "title": "FTSE 100 Live: Mixed day for London stocks as oil rally reignites inflation worries | NYSE:ATE",
+          "url": "https://www.proactiveinvestors.com/companies/news/1096849/ftse-100-live-mixed-day-for-london-stocks-as-oil-rally-reignites-inflation-worries-1096849.html",
+          "outlet": "proactiveinvestors.com"
+        },
+        {
+          "title": "Prediction: AMD Stock Will Soar After Aug. 4. The Reason Is Hiding in Plain Sight",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-amd-stock-soar-aug-155300881.html",
+          "outlet": "finance.yahoo.com"
+        },
+        {
+          "title": "Prediction: AMD Stock Will Soar After Aug. 4. The Reason Is Hiding in Plain Sight. | The Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/15/prediction-amd-stock-will-soar-after-aug-4-the-rea/",
+          "outlet": "fool.com"
+        },
+        {
+          "title": "Prediction: AMD Stock Will Skyrocket After Aug. 4 Due to This Massive News",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-amd-stock-skyrocket-aug-145300934.html",
+          "outlet": "finance.yahoo.com"
+        },
+        {
+          "title": "Advanced Micro Devices Inc Stock (AMD) Moved Up by 3.04% on Aug 14: Key Drivers Unveiled",
+          "url": "https://www.tradingkey.com/news/market-movers/262108457-market-movers-amd-20260814",
+          "outlet": "tradingkey.com"
+        },
+        {
+          "title": "Why Is AMD (AMD) Stock Rocketing Higher Today",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-amd-amd-stock-rocketing-215942210.html",
+          "outlet": "finance.yahoo.com"
+        },
+        {
+          "title": "AMD Stock Surges on Blowout Earnings: Do the Results Justify the Hype? - MarketWise",
+          "url": "https://marketwise.com/investing/amd-stock-surges-q1-2026-earnings-ai-growth/",
+          "outlet": "marketwise.com"
+        },
+        {
+          "title": "FinancialContent - AMD (AMD) Stock Trades Up, Here Is Why",
+          "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-14-amd-amd-stock-trades-up-here-is-why",
+          "outlet": "markets.financialcontent.com"
+        },
+        {
+          "title": "Why is Advanced Micro Devices stock surging today? By Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-advanced-micro-devices-stock-surging-today-93CH-4861365",
+          "outlet": "investing.com"
+        }
+      ]
+    },
+    {
+      "id": "fpl",
+      "title": "Fantasy Premier League",
+      "status": "ok",
+      "body": "**Deadline: GW1 — Friday 21 Aug, 17:30 BST**\n\n**Prices**\n\nPrices are locked until after the GW1 deadline. Nothing actionable here.\n\n**Injuries — what's new**\n\nThe Brighton situation has crystallised since yesterday. \nMinteh's leg injury from the Roma friendly leaves Hurzeler without both first-choice wingers, as Mitoma is still recovering from hamstring surgery that ruled him out of the World Cup.\n This is no longer a \"wait and see\" — \nMitoma has missed all of pre-season with no clear return date.\n \nBrighton are expected to be without Mitoma, Baleba, and Ferguson for the opening weeks.\n\n\nThe FPL consequence: Gomez's case as a Brighton differential is now even stronger than it was yesterday, since both wide options ahead of him are gone.\n\nElsewhere, two flagged players from the pre-fetched data worth noting:\n\n- **Mukiele** (Sunderland, 4.3% owned) — \nSunderland manager Le Bris confirmed Mukiele picked up a minor injury in pre-season but expects both him and Alderete \"on the bench against Ipswich\" in GW1\n — so a starter he is not.\n- **Šeško** (Man Utd, 2.1% owned) — \nŠeško can still become available but should not be treated as a guaranteed GW1 starter yet.\n \nBruno Fernandes remains the safest Man Utd pick; wait for final evidence before selecting Šeško.\n\n\n**Differentials**\n\nNothing new beyond what you already have on Havertz, Tavernier, Schade, and Vuskovic. \nHavertz remains the standout differential pick at just 6.9% ownership.\n \nVuskovic is also still in circulation — Brighton's new signing posted six goals and two assists in the Bundesliga last season.\n Ironic given the injury crisis around him; a clean sheet upside pick rather than an attacking one.\n\n**Watch today:** any Minteh scan result from Brighton — if it confirms a multi-week absence, Gomez's ownership will move fast before Friday's deadline.",
+      "sources": [
+        {
+          "title": "FPL pre-season: DCL brace, Gudmundsson injury + Frimpong update",
+          "url": "https://www.fantasyfootballscout.co.uk/2026/08/03/fpl-pre-season-dcl-brace-gudmundsson-injury-frimpong-update",
+          "outlet": "fantasyfootballscout.co.uk"
+        },
+        {
+          "title": "FPL pre-season: Gudmundsson + Mukiele injury latest, 'OOP' Hume scores",
+          "url": "https://www.fantasyfootballscout.co.uk/2026/08/10/fpl-pre-season-gudmundsson-mukiele-injury-latest-oop-hume-scores",
+          "outlet": "fantasyfootballscout.co.uk"
+        },
+        {
+          "title": "FPL Gameweek 1 Injuries and Suspensions 2026/27 | OneFPL",
+          "url": "https://onefpl.com/blog/who-will-miss-fpl-gameweek-1-2026-27",
+          "outlet": "onefpl.com"
+        },
+        {
+          "title": "Premier League Injuries and Suspensions: Daily Tracker | Squawka",
+          "url": "https://www.squawka.com/us/epl-premier-league/premier-league-injuries-and-suspensions/",
+          "outlet": "squawka.com"
+        },
+        {
+          "title": "Which players will miss Gameweek 1? | FPL Dashboard",
+          "url": "https://fpl.page/article/fpl-gw1-absent-injured-missing-players-world-cup-2627",
+          "outlet": "fpl.page"
+        },
+        {
+          "title": "Vercel",
+          "url": "https://onefpl.vercel.app/blog/how-to-track-fpl-injury-news",
+          "outlet": "onefpl.vercel.app"
+        },
+        {
+          "title": "Premier League Latest Injury News – Club by Club Updates",
+          "url": "https://www.premierleague.com/en/latest-player-injuries",
+          "outlet": "premierleague.com"
+        },
+        {
+          "title": "Latest Premier League player injuries - club by club news",
+          "url": "https://www.premierleague.com/en/news/4450606/latest-premier-league-player-injuries-club-by-club-news",
+          "outlet": "premierleague.com"
+        },
+        {
+          "title": "Premier League Injuries & Suspensions | Injury News",
+          "url": "https://www.sportsgambler.com/injuries/football/england-premier-league/",
+          "outlet": "sportsgambler.com"
+        },
+        {
+          "title": "2FPLGurus’s Substack",
+          "url": "https://2fplgurus.substack.com/archive",
+          "outlet": "2fplgurus.substack.com"
+        },
+        {
+          "title": "Best FPL Differentials 2026/27: 5 Gameweek 1 Picks",
+          "url": "https://www.fantasyfootballfix.com/blog-index/best-fpl-differentials-gameweek-1-2026-27/",
+          "outlet": "fantasyfootballfix.com"
+        },
+        {
+          "title": "FPL Tips 2026/27: The Ultimate Gameweek 1 Guide",
+          "url": "https://www.fantasyfootballfix.com/blog-index/fpl-gameweek-1-guide/",
+          "outlet": "fantasyfootballfix.com"
+        },
+        {
+          "title": "FPL GW1 DRAFT: Best Differentials | Under the Radar Picks | Fantasy Premier League Tips 2026/27 - YouTube",
+          "url": "https://www.youtube.com/watch?v=h5gfeHTZTrI",
+          "outlet": "youtube.com"
+        },
+        {
+          "title": "FPL GW1 Tips 2026/27: Captain Picks & Differentials | FPL Copilot",
+          "url": "https://fplcopilot.com/blog/fpl-gw1-tips-2026-27",
+          "outlet": "fplcopilot.com"
+        },
+        {
+          "title": "FPL tips for 2026/27: The Ultimate Guide to Gameweek 1",
+          "url": "https://www.fantasyfootballhub.co.uk/fantasy-premier-league-ultimate-guide-fpl-tips",
+          "outlet": "fantasyfootballhub.co.uk"
+        },
+        {
+          "title": "Best FPL GW1 Drafts for the 26/27 FPL Season with Pros & Cons",
+          "url": "https://allaboutfpl.com/2026/08/best-fpl-gw1-drafts-for-the-26-27-fpl-season-with-pros-cons/",
+          "outlet": "allaboutfpl.com"
+        },
+        {
+          "title": "2025%E2%80%9326 Professional U21 Development League",
+          "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Professional_U21_Development_League",
+          "outlet": "en.wikipedia.org"
+        },
+        {
+          "title": "ALLABOUTFPL: Your one stop place for all FPL tips, FPL captain picks, FPL news, FPL players, previews, reviews,differential picks, analysis and weekly updates. - Your one stop place for all FPL tips, FPL captain picks, FPL news, FPL players, previews, reviews,differential picks, analysis and weekly updates.",
+          "url": "https://allaboutfpl.com/",
+          "outlet": "allaboutfpl.com"
+        },
+        {
+          "title": "FPL Gameweek 1 Differential Picks: Top Low-Ownership Picks | The Football Matrix",
+          "url": "https://thefootballmatrix.com/fpl/fpl-gw1-differentials-2026-27",
+          "outlet": "thefootballmatrix.com"
+        },
+        {
+          "title": "2026/2027 FPL Team Structure Guide with Drafts & Ratings",
+          "url": "https://allaboutfpl.com/2026/08/2026-2027-fpl-team-structure-guide-with-drafts-ratings/",
+          "outlet": "allaboutfpl.com"
+        },
+        {
+          "title": "'Not great' - Brighton issue Yankuba Minteh injury update after Roma blow",
+          "url": "https://www.sussexexpress.co.uk/sport/football/brighton-and-hove-albion/brighton-issue-yankuba-minteh-injury-update-after-roma-blow-8846858",
+          "outlet": "sussexexpress.co.uk"
+        },
+        {
+          "title": "Injury nightmare for Brighton! Yankuba Minteh limps off as Fabian Hurzeler's squad crisis worsens despite Roma win | Goal.com UK",
+          "url": "https://www.goal.com/en-gb/lists/yankuba-minteh-injury-brighton-roma/blt347e8d7b97c9eb72",
+          "outlet": "goal.com"
+        },
+        {
+          "title": "Kaoru Mitoma estimated return date for Brighton and Japan star",
+          "url": "https://www.sussexexpress.co.uk/sport/football/brighton-and-hove-albion/kaoru-mitoma-estimated-return-date-for-brighton-and-japan-star-8641955",
+          "outlet": "sussexexpress.co.uk"
+        },
+        {
+          "title": "Injury nightmare for Brighton! Yankuba Minteh limps off as Fabian Hurzeler's squad crisis worsens despite Roma win - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/injury-nightmare-brighton-yankuba-minteh-180145332.html",
+          "outlet": "sports.yahoo.com"
+        },
+        {
+          "title": "Brighton unsure if Japan star Mitoma will be fit for World Cup - ESPN",
+          "url": "https://www.espn.com/soccer/story/_/id/48770825/brighton-japan-kaoru-mitoma-world-cup-2026-injury",
+          "outlet": "espn.com"
+        },
+        {
+          "title": "Brighton expect to be without Yankuba Minteh for two to three months after right leg injury | OneFootball",
+          "url": "https://onefootball.com/en/news/brighton-expect-to-be-without-yankuba-minteh-for-two-to-three-months-after-right-leg-injury-43276429",
+          "outlet": "onefootball.com"
+        },
+        {
+          "title": "Brighton Injury Update: Mitoma, Ferguson, Tzimas | Read Brighton",
+          "url": "https://readbrighton.com/2026/08/03/brighton-injury-update/",
+          "outlet": "readbrighton.com"
+        },
+        {
+          "title": "injury history",
+          "url": "https://au.soccerway.com/player/minteh-yankuba/0Kp8MqA5/injury-history",
+          "outlet": "au.soccerway.com"
+        },
+        {
+          "title": "injury history",
+          "url": "https://ng.soccerway.com/player/minteh-yankuba/0Kp8MqA5/injury-history",
+          "outlet": "ng.soccerway.com"
+        },
+        {
+          "title": "Gambia: Minteh Returns to Action After Recovering From Injury With Game Changer Performance for Brighton",
+          "url": "https://allafrica.com/stories/202601230642.html",
+          "outlet": "allafrica.com"
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "title": "Data & BI",
+      "status": "ok",
+      "body": "**Data & BI**\n\n**Power BI — legacy Excel/CSV import hard stop is today.** The three-stage retirement of the browser-based Excel/CSV import path reaches its final deadline. \nNew models using that path were blocked in May; existing models stopped refreshing on 31 July; and from 31 August, reports built on those legacy models fail to open entirely.\n If anyone in your org still has a dashboard \"looking a bit stale,\" this is the likely cause. The fix is straightforward: \nopen Desktop, connect to the same file via Get Data, publish a new semantic model, and rebind the affected reports.\n\n\n**Power BI — visual calculations hit GA.** Quietly landed alongside the July release: \nvisual calculations are now generally available, making it easier to add DAX calculations directly to the visual where they're used\n rather than polluting the model with single-purpose measures.\n\n**Power BI — .pbix download behaviour changed.** Worth flagging if developers are confused: \ndownloading a .pbix from a semantic model in the Service now yields an empty report with the dataset only; to get the report with the dataset, you must go to the report itself — a change made to address inconsistent results from the old behaviour.\n\n\n**BigQuery — data clean room query templates GA.** \nQuery templates for data clean rooms are now generally available in BigQuery.\n Low fanfare, but useful if your org is doing any privacy-safe data collaboration with external partners.\n\n**dbt Summit — early-bird pricing expires Monday.** \nThe conference runs 15–18 September in Las Vegas; standard registration is $1,695 until 17 August, rising to $1,895 from the 18th.\n Worth knowing if the team has budget to burn before end of month.",
+      "sources": [
+        {
+          "title": "Power BI July 2026 Feature Summary - Microsoft Fabric Community",
+          "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-July-2026-Feature-Summary/ba-p/5303533",
+          "outlet": "community.fabric.microsoft.com"
+        },
+        {
+          "title": "Power BI June 2026 Feature Summary - Microsoft Fabric Community",
+          "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-June-2026-Feature-Summary/ba-p/5193264",
+          "outlet": "community.fabric.microsoft.com"
+        },
+        {
+          "title": "See What's New in the July 2026 Power BI Update - Power BI | Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/power-bi/fundamentals/whats-new",
+          "outlet": "learn.microsoft.com"
+        },
+        {
+          "title": "Power BI 2026 Updates: Official Changes, Real Impact, and How to Prepare as a Power BI Professional | by David Marvellous | Power BI | Medium",
+          "url": "https://medium.com/microsoft-power-bi/power-bi-2026-updates-official-changes-real-impact-and-how-to-prepare-as-a-power-bi-professional-c7c581173fe4",
+          "outlet": "medium.com"
+        },
+        {
+          "title": "Power BI May 2026 Feature Summary - Microsoft Fabric Community",
+          "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5182174",
+          "outlet": "community.fabric.microsoft.com"
+        },
+        {
+          "title": "Power BI 2026 Deprecations: What's Breaking and When",
+          "url": "https://dashboardfox.com/blog/power-bi-2026-deprecations-what-s-breaking-and-when/",
+          "outlet": "dashboardfox.com"
+        },
+        {
+          "title": "Power BI Updates by Microsoft - July 2026 - Releasebot",
+          "url": "https://releasebot.io/updates/microsoft/power-bi",
+          "outlet": "releasebot.io"
+        },
+        {
+          "title": "Unveiling new BigQuery capabilities for the agentic era | Google Cloud Blog",
+          "url": "https://cloud.google.com/blog/products/data-analytics/unveiling-new-bigquery-capabilities-for-the-agentic-era",
+          "outlet": "cloud.google.com"
+        },
+        {
+          "title": "Google Cloud latest news and announcements | Google Cloud Blog",
+          "url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud",
+          "outlet": "cloud.google.com"
+        },
+        {
+          "title": "Google BigQuery > News > Page #1 - InfoQ",
+          "url": "https://www.infoq.com/GoogleBigQuery/news/",
+          "outlet": "infoq.com"
+        },
+        {
+          "title": "Google Cloud release notes | Google Cloud Documentation",
+          "url": "https://docs.cloud.google.com/release-notes",
+          "outlet": "docs.cloud.google.com"
+        },
+        {
+          "title": "Is BigQuery Down? Live Status & History - GCPDown",
+          "url": "https://gcpdown.com/status/bigquery",
+          "outlet": "gcpdown.com"
+        },
+        {
+          "title": "Google Next 2026: What’s New for Looker, BigQuery, Data Platforms and Agentic Analytics | by Mark Rittman | Rittman Analytics Blog",
+          "url": "https://blog.rittmananalytics.com/google-next-2026-whats-new-for-looker-bigquery-data-platforms-and-agentic-analytics-732cb3c1aa1b?gi=689e82e05aac",
+          "outlet": "blog.rittmananalytics.com"
+        },
+        {
+          "title": "What’s new with Google Data Cloud | Google Cloud Blog",
+          "url": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud",
+          "outlet": "cloud.google.com"
+        },
+        {
+          "title": "RubyGems Navigation menu",
+          "url": "https://bundler.rubygems.org/gems/google-cloud-bigquery/versions",
+          "outlet": "bundler.rubygems.org"
+        },
+        {
+          "title": "RubyGems Navigation menu",
+          "url": "https://index.rubygems.org/gems/google-cloud-bigquery/versions",
+          "outlet": "index.rubygems.org"
+        },
+        {
+          "title": "Best Semantic Layer for AI and BI in 2026: Shortlist | Cube",
+          "url": "https://cube.dev/articles/best-semantic-layer-for-ai-and-bi-2026",
+          "outlet": "cube.dev"
+        },
+        {
+          "title": "Semantic Layer for AI and BI (2026): Why It Matters, How to Choose, and How to Implement It - Omni Analytics",
+          "url": "https://omni.co/articles/best-semantic-layer-for-ai-and-bi-2026",
+          "outlet": "omni.co"
+        },
+        {
+          "title": "dbt Summit 2026 (formerly Coalesce): Overview & Attendee Guide",
+          "url": "https://www.rollstack.com/articles/dbt-summit-2026",
+          "outlet": "rollstack.com"
+        },
+        {
+          "title": "Best Semantic Layer Solutions for Data Teams | Kaelio",
+          "url": "https://www.kaelio.com/blog/best-semantic-layer-solutions-for-data-teams-2026-guide",
+          "outlet": "kaelio.com"
+        },
+        {
+          "title": "How to Pass the dbt Analytics Engineering Certification in 2026: Study Guide — CertLand Blog",
+          "url": "https://certland.net/blog/dbt-analytics-engineering-certification-study-guide-2026/",
+          "outlet": "certland.net"
+        },
+        {
+          "title": "dbt Semantic Layer: Setup, Pros & Limits (2026)",
+          "url": "https://infinisynapse.com/en/blog/dbt-semantic-layer",
+          "outlet": "infinisynapse.com"
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "title": "Career & Data Leadership",
+      "status": "ok",
+      "body": "**Head of Data pay — cleaner floor figure**\n\n\n[Bristow Holland](https://www.bristowholland.com/insights/industry-insights/uk-data-analytics-salary-expectations-in-2026-hiring-trends-and-workforce-planning/) puts Head of Data and data management leadership roles as frequently exceeding £90,000, particularly where responsibility covers governance, reporting strategy, and enterprise data architecture.\n That sits below the Director band covered yesterday (£87k–£142k) and gives a cleaner floor for the step you're targeting.\n\n**Candidate mobility is notably high**\n\n\n[Digital Waffle](https://www.digitalwaffle.co/salary-guides) reports that 66% of data specialists are open to new opportunities this year\n — well above most professional cohorts. For someone at Head of Data level, that means the external market is liquid and worth benchmarking against actively, not just at annual review.\n\n**Salary growth in data is outpacing the broader tech market**\n\n\nSalaries are rising 2–4% on average across tech, but data, AI, and cybersecurity are seeing growth of up to 6%.\n \nRandstad Digital attribute this to a distinct scarcity of digital expertise, driving sharply rising and highly competitive salaries particularly for leadership roles in AI, Cloud, and Data.\n\n\n**The visible-leadership risk**\n\nA sharp framing from [The Executive Outlook](https://theexecutiveoutlook.com/blogs/effective-data-leadership-tips-lead-drive-impact-2026) worth sitting with: \nthe defining risk for data leaders in 2026 is invisibility — technical credibility is no longer sufficient, and many leaders invest heavily in platforms before building organisational confidence in what those platforms produce.\n \nEffective data leadership doesn't stop at the boundary of the data function; the impact ceiling of any data programme is set by the analytical capability of the business leaders consuming its output.\n Useful interview framing: what's your answer when the board asks what you've actually delivered?\n\n**Delivery frameworks as a differentiator**\n\n\n[Analytics8](https://www.analytics8.com/blog/ai-and-data-strategy-in-2026-what-leaders-need-to-get-right/) argues data leaders should prioritise scalable, repeatable delivery frameworks — defining clear steps from intake to execution to adoption, and aligning every project to a specific business problem with a measurable definition of success.\n The implication: \"we shipped a platform\" is a weak leadership story; \"we changed how the business makes decisions\" is the strong one.",
+      "sources": [
+        {
+          "title": "Hiring Trends in the UK - (May 2026)",
+          "url": "https://www.qureos.com/hiring-guide/hiring-trends-in-the-uk",
+          "outlet": "qureos.com"
+        },
+        {
+          "title": "UK tech hiring trends for 2026 | Harvey Nash",
+          "url": "https://www.harveynash.co.uk/latest-news/tech-recruitment-outlook-high-demand-for-specialist-skills-will-drive-the-market-in-2026",
+          "outlet": "harveynash.co.uk"
+        },
+        {
+          "title": "UK Tech Recruitment Trends to Watch in Early 2026",
+          "url": "https://www.jarsolutions.co.uk/blog/2026/01/uk-tech-recruitment-trends-to-watch-in-early-2026",
+          "outlet": "jarsolutions.co.uk"
+        },
+        {
+          "title": "Data Engineering Hiring Trends 2026: What to Watch Out For (For Job Seekers & Recruiters) | Data Engineering Jobs",
+          "url": "https://dataengineeringjobs.co.uk/career-advice/data-engineering-hiring-trends-2026-what-to-watch-out-for-for-job-seekers-recruiters-",
+          "outlet": "dataengineeringjobs.co.uk"
+        },
+        {
+          "title": "4 UK Hiring Trends for 2026 and How to Stay Ahead",
+          "url": "https://www.rippling.com/blog/uk-hiring-trends-2026",
+          "outlet": "rippling.com"
+        },
+        {
+          "title": "UK salary trends 2026: roles, skills and industries in highest demand.",
+          "url": "https://www.randstaddigital.com/insights/blogs/managed-solutions/uk-salary-trends-2026-roles-skills-industries-highest-demand/",
+          "outlet": "randstaddigital.com"
+        },
+        {
+          "title": "Explore Our 2026 UK Salary Guide | Morgan McKinley",
+          "url": "https://www.morganmckinley.com/uk/salary-guide",
+          "outlet": "morganmckinley.com"
+        },
+        {
+          "title": "UK salary guide 2026 – average salaries & trends | Reed",
+          "url": "https://www.reed.com/tools/uk-salary-guide-2026",
+          "outlet": "reed.com"
+        },
+        {
+          "title": "2026 UK Data Analysis Salary Guide | Digital Waffle",
+          "url": "https://www.digitalwaffle.co/salary-guides/data-analysis-salaries",
+          "outlet": "digitalwaffle.co"
+        },
+        {
+          "title": "UK Tech Salary Benchmarks 2026: What Every Role Is Actually Paying | CareerPulse",
+          "url": "https://careerpulse.uk/blog/uk-tech-salary-benchmarks-2026",
+          "outlet": "careerpulse.uk"
+        },
+        {
+          "title": "2026 UK salary guide | Randstad Digital",
+          "url": "https://www.randstaddigital.com/2026-uk-salary-guide/",
+          "outlet": "randstaddigital.com"
+        },
+        {
+          "title": "UK Data & Analytics Salary Expectations in 2026: Hiring Trends and Workforce Planning - Bristow Holland",
+          "url": "https://www.bristowholland.com/insights/industry-insights/uk-data-analytics-salary-expectations-in-2026-hiring-trends-and-workforce-planning/",
+          "outlet": "bristowholland.com"
+        },
+        {
+          "title": "2026 UK Data Salary Guide | Digital Waffle",
+          "url": "https://www.digitalwaffle.co/salary-guides/data-salaries",
+          "outlet": "digitalwaffle.co"
+        },
+        {
+          "title": "The UK Software, Product & IT Salary Benchmark Report (2026) | MRJ Recruitment",
+          "url": "https://www.mrjrecruitment.com/resources/download/the-uk-software--product---it-salary-benchmark-report--2026-/",
+          "outlet": "mrjrecruitment.com"
+        },
+        {
+          "title": "2026 UK Salary Guides | Digital Waffle",
+          "url": "https://www.digitalwaffle.co/salary-guides",
+          "outlet": "digitalwaffle.co"
+        },
+        {
+          "title": "Data Strategy for 2026: What Data-Driven Leaders Must Get Right | by Kavika Roy | Medium",
+          "url": "https://medium.com/@kavika.roy/data-strategy-for-2026-what-data-driven-leaders-must-get-right-44e4f98854eb",
+          "outlet": "medium.com"
+        },
+        {
+          "title": "AI and Data Strategy in 2026: What Data Leaders Must Get Right | Analytics8",
+          "url": "https://www.analytics8.com/blog/ai-and-data-strategy-in-2026-what-leaders-need-to-get-right/",
+          "outlet": "analytics8.com"
+        },
+        {
+          "title": "What Data-Driven Leaders Must Get Right in 2026?",
+          "url": "https://www.datatobiz.com/blog/what-data-driven-leaders-must-get-right/",
+          "outlet": "datatobiz.com"
+        },
+        {
+          "title": "Key Strategic Priorities for Data and AI Leadership in 2026 — Apptad",
+          "url": "https://apptad.com/insights/key-strategic-priorities-for-data-and-ai-leadership-in-2026/",
+          "outlet": "apptad.com"
+        },
+        {
+          "title": "The Top Strategic Priorities Guiding Data and AI Leaders in 2026",
+          "url": "https://www.pacificdataintegrators.com/blogs/top-strategic-priorities-data-ai-leaders-2026",
+          "outlet": "pacificdataintegrators.com"
+        },
+        {
+          "title": "2026 Data Trends: How Data Strategy Must Evolve for Competitive Advantage",
+          "url": "https://data-sleek.com/blog/2026-data-trends/",
+          "outlet": "data-sleek.com"
+        },
+        {
+          "title": "Key Strategic Priorities for Data and AI Leadership in 2026 - Apptad",
+          "url": "https://apptad.com/blogs/key-strategic-priorities-for-data-and-ai-leadership-in-2026/",
+          "outlet": "apptad.com"
+        },
+        {
+          "title": "Data Trends 2026: What Leaders Need to Know Right Now",
+          "url": "https://datadrivendaily.com/data-trends-2026-what-leaders-need-to-know-right-now/",
+          "outlet": "datadrivendaily.com"
+        },
+        {
+          "title": "Effective Data Leadership: Tips to Lead and Drive Impact in 2026 | The Executive Outlook",
+          "url": "https://theexecutiveoutlook.com/blogs/effective-data-leadership-tips-lead-drive-impact-2026",
+          "outlet": "theexecutiveoutlook.com"
+        }
+      ]
+    },
+    {
+      "id": "insurance",
+      "title": "UK Insurance",
+      "status": "failed",
+      "body": "",
+      "sources": []
+    },
+    {
+      "id": "local",
+      "title": "Milton Keynes",
+      "status": "failed",
+      "body": "",
+      "sources": []
+    },
+    {
+      "id": "news",
+      "title": "News",
+      "status": "failed",
+      "body": "",
+      "sources": []
+    }
+  ],
+  "markets": {
+    "holdings": [
+      {
+        "symbol": "VUSA.LON",
+        "label": "Vanguard S&P 500 ETF",
+        "price": 108.915,
+        "changePercent": -0.3728
+      },
+      {
+        "symbol": "VEVE.LON",
+        "label": "Vanguard FTSE Dev World ex-UK",
+        "price": 108.67,
+        "changePercent": -0.3485
+      },
+      {
+        "symbol": "IJPN.LON",
+        "label": "iShares MSCI Japan",
+        "price": 1899.5,
+        "changePercent": -0.6018
+      },
+      {
+        "symbol": "ASML",
+        "label": "ASML",
+        "price": 1844.08,
+        "changePercent": -0.2067
+      },
+      {
+        "symbol": "AMD",
+        "label": "AMD",
+        "price": 514.39,
+        "changePercent": 6.4968
+      },
+      {
+        "symbol": "WDEF.LON",
+        "label": "WisdomTree Europe Defence",
+        "price": 29.7075,
+        "changePercent": -0.1177
+      }
+    ],
+    "watchlist": [
+      {
+        "symbol": "BA.LON",
+        "label": "BAE Systems",
+        "price": 2258,
+        "changePercent": 0.9839
+      },
+      {
+        "symbol": "RR.LON",
+        "label": "Rolls-Royce",
+        "price": 1541,
+        "changePercent": 1.0492
+      },
+      {
+        "symbol": "BABS.LON",
+        "label": "Babcock International",
+        "price": null,
+        "changePercent": null,
+        "error": "No quote returned"
+      },
+      {
+        "symbol": "CHG.LON",
+        "label": "Chemring",
+        "price": 628,
+        "changePercent": 1.2903
+      },
+      {
+        "symbol": "QQ.LON",
+        "label": "QinetiQ",
+        "price": 563,
+        "changePercent": 0.5357
+      },
+      {
+        "symbol": "BEZ.LON",
+        "label": "Beazley",
+        "price": 1292.5,
+        "changePercent": 0
+      }
+    ]
+  },
+  "log": [
+    {
+      "sectionId": "markets:holdings",
+      "status": "ok",
+      "durationMs": 82548
+    },
+    {
+      "sectionId": "markets:watchlist",
+      "status": "ok",
+      "durationMs": 78594
+    },
+    {
+      "sectionId": "fpl:api",
+      "status": "ok",
+      "durationMs": 193
+    },
+    {
+      "sectionId": "investing",
+      "status": "ok",
+      "durationMs": 19027
+    },
+    {
+      "sectionId": "fpl",
+      "status": "ok",
+      "durationMs": 22399
+    },
+    {
+      "sectionId": "data",
+      "status": "ok",
+      "durationMs": 18074
+    },
+    {
+      "sectionId": "career",
+      "status": "ok",
+      "durationMs": 20122
+    },
+    {
+      "sectionId": "insurance",
+      "status": "failed",
+      "durationMs": 7080,
+      "detail": "Claude API error 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ce41vwekjoJEbAf4eLhGX\"}"
+    },
+    {
+      "sectionId": "local",
+      "status": "failed",
+      "durationMs": 7086,
+      "detail": "Claude API error 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ce41wTxehU6VwJt6FkHCg\"}"
+    },
+    {
+      "sectionId": "news",
+      "status": "failed",
+      "durationMs": 6902,
+      "detail": "Claude API error 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ce41wyTg7JyiZfR3Tmmz4\"}"
+    },
+    {
+      "sectionId": "summary",
+      "status": "failed",
+      "durationMs": 6866,
+      "detail": "Claude API error 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ce41xUp2KMaKhApcVB258\"}"
+    }
+  ],
+  "generatedAt": "2026-08-15T05:55:17.387Z"
+}
